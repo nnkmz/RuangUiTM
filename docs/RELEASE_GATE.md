@@ -2,7 +2,7 @@
 
 **Status: HOLD — belum diluluskan untuk pengguna memuat turun atau go-live.**
 
-Pengguna meminta semua modul dilengkapkan dan diuji sebelum serahan. Fail v0.3 terdahulu tidak mewakili keluaran lengkap. Keluaran dalaman ini menambah modul operasi kepada inventori ruang, tetapi dua syarat pelepasan masih belum boleh disahkan dalam persekitaran semasa.
+Pengguna meminta semua modul dilengkapkan dan diuji sebelum serahan. Fail v0.3 terdahulu tidak mewakili keluaran lengkap. Keluaran dalaman ini menambah modul operasi kepada inventori ruang, dan CI Docker kini lulus. Syarat browser interaktif serta staging masih belum disahkan.
 
 | Syarat | Bukti | Status |
 |---|---|---|
@@ -11,7 +11,7 @@ Pengguna meminta semua modul dilengkapkan dan diuji sebelum serahan. Fail v0.3 t
 | Import CSV/JSON | 5 ujian parser + import atomik di API | Lulus |
 | Paparan React | 28 ujian render server, build produksi Vite | Lulus untuk semakan kod; bukan browser |
 | Backup/restore | 27 jadual dipulihkan, kandungan setiap baris sepadan; fail private sepadan byte demi byte | Lulus pada runtime ujian |
-| Pemasangan Docker Compose | Fail 5 servis, volum dan skrip disemak | BELUM DIJALANKAN — Docker tiada |
+| Pemasangan Docker Compose | GitHub Actions run #1, commit `52a8176`: build/start, setup dua kali, API, frontend, backup/restore dan health | Lulus |
 | Browser interaktif desktop/mobile | Preview disediakan; akses browser kemudian disekat polisi persekitaran | BELUM LULUS |
 | HTTPS, volum restart, scheduler berterusan | Memerlukan staging sasaran | BELUM DIJALANKAN |
 
