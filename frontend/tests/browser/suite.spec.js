@@ -25,6 +25,7 @@ test('login errors, keyboard submit, session persistence and logout',async({page
 
 test('2D and isometric selection, keyboard, zoom, pan and SVG/CSV exports',async({page},info)=>{
   await login(page);await fits(page);
+  for(const name of ['Tapis jenis ruang','Tapis jabatan'])expect((await page.getByRole('combobox',{name}).boundingBox()).width).toBeGreaterThanOrEqual(100);
   const rooms=page.locator('svg [data-room]');await expect(rooms.first()).toBeVisible();const code=(await rooms.nth(1).getAttribute('aria-label')).split(' ')[0];
   await rooms.nth(1).focus();await page.keyboard.press('Enter');await expect(page.locator('.inspector h2')).toHaveText(code);
   const area=await page.locator('.area-box strong').innerText();await shot(page,info,'plan-2d');
