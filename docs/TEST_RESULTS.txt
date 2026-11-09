@@ -1,0 +1,52 @@
+Setup selesai. Data sedia ada dikekalkan.
+PASS rectangle area 54 m2
+PASS concave L area 72 m2
+PASS winding-independent area
+PASS shared wall allowed
+PASS coincident polygons rejected
+PASS containment rejected
+PASS crossing interiors rejected
+PASS concave recess allowed
+PASS self-crossing rejected
+PASS outside-floor rejected
+PASS duplicate-vertex rejected
+PASS zero-area rejected
+PASS manual-only room allowed
+13 geometry assertions passed.
+PASS demo seeded in MariaDB
+PASS server computes L-shaped room area
+PASS manual-only room persisted
+PASS version increments on update
+PASS new room geometry and area persisted
+PASS record shared across independent sessions
+PASS archived room hidden from active list
+PASS archive audit committed
+PASS audit omits password hashes
+48 integration assertions passed.
+PASS goods receipt updates stock
+PASS SLA dates captured from policy
+PASS insufficient stock rolls back without negative balance
+PASS first completed work does not prematurely close request
+PASS manager returns work for correction
+PASS all verified works close parent request
+PASS work costs combine stored labor and stock valuation
+PASS asset relocation persists with history
+PASS asset move history retained
+PASS scheduler generates due maintenance work
+PASS scheduler rerun creates no duplicate occurrence
+PASS maintenance checklist and verification complete
+PASS booking approval and owner cancellation
+PASS room charge uses area snapshot and monetary rounding
+PASS financial report aggregates actual work costs and budget
+PASS meter consumption derived from sequential cumulative readings
+PASS attachment HTTP status 422
+PASS attachment HTTP status 201
+PASS authorized attachment download matches uploaded bytes
+PASS workflow notifications visible to reporter
+PASS notifications can be marked read
+PASS another reporter cannot see private requests
+PASS failed import is atomic with no partial rows
+PASS valid batch room import persisted
+153 operation assertions passed.
+Setup selesai. Data sedia ada dikekalkan.
+Setup selesai. Data sedia ada dikekalkan.

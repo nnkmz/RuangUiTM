@@ -1,0 +1,69 @@
+name: Fasiliti Suite acceptance
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+permissions:
+  contents: read
+concurrency:
+  group: fasiliti-acceptance-${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+jobs:
+  integration:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    env:
+      TEST_BASE_URL: http://127.0.0.1:8080
+      TEST_ADMIN_EMAIL: ci@example.test
+      TEST_ADMIN_PASSWORD: CI-Disposable-Password-2026
+    steps:
+      - uses: actions/checkout@v7
+      - uses: actions/setup-node@v7
+        with:
+          node-version: '22'
+          cache: npm
+          cache-dependency-path: frontend/package-lock.json
+      - name: Prepare disposable CI environment
+        run: |
+          cat > .env <<'ENV'
+          DB_DATABASE=fasiliti
+          DB_USERNAME=fasiliti
+          DB_PASSWORD=ci-database-disposable
+          DB_ROOT_PASSWORD=ci-root-disposable
+          ADMIN_EMAIL=ci@example.test
+          ADMIN_NAME=CI Administrator
+          ADMIN_PASSWORD=CI-Disposable-Password-2026
+          APP_PORT=8080
+          BIND_ADDRESS=127.0.0.1
+          COOKIE_SECURE=0
+          ENV
+      - name: Build and start actual Docker stack
+        run: |
+          docker compose up -d --build
+          docker compose --profile tools run --rm setup --demo
+          docker compose --profile tools run --rm setup --demo
+          docker compose stop scheduler
+          curl --fail --retry 15 --retry-connrefused --retry-all-errors --retry-delay 2 --max-time 5 http://127.0.0.1:8080/api/v1/health
+      - name: PHP geometry and HTTP integration
+        run: |
+          docker compose exec -T php php tests/geometry.php
+          python3 backend/tests/integration.py
+          python3 backend/tests/operations.py
+      - name: Frontend parser, render and production build
+        run: |
+          npm --prefix frontend ci
+          npm --prefix frontend run test
+          npm --prefix frontend run test:render
+          npm --prefix frontend run build
+      - name: Actual container backup and restore
+        run: |
+          scripts/backup.sh
+          latest_backup=$(find backups -name '*.sql' | sort | tail -n 1)
+          printf 'RESTORE\n' | scripts/restore.sh "$latest_backup"
+          curl --fail --retry 15 --retry-connrefused --retry-all-errors --retry-delay 2 --max-time 5 http://127.0.0.1:8080/api/v1/health
+      - name: Stack logs on failure
+        if: failure()
+        run: docker compose logs --no-color --tail=100
+      - name: Cleanup disposable stack
+        if: always()
+        run: docker compose down -v

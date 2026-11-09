@@ -1,0 +1,6 @@
+{
+  "rooms": 96,
+  "users": 1,
+  "migrations": 2,
+  "setup_rerun_idempotent": true
+}

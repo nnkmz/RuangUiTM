@@ -1,0 +1,77 @@
+services:
+  db:
+    image: mariadb:11.4
+    restart: unless-stopped
+    environment:
+      MARIADB_DATABASE: ${DB_DATABASE:-fasiliti}
+      MARIADB_USER: ${DB_USERNAME:-fasiliti}
+      MARIADB_PASSWORD: ${DB_PASSWORD:?Set DB_PASSWORD in .env}
+      MARIADB_ROOT_PASSWORD: ${DB_ROOT_PASSWORD:?Set DB_ROOT_PASSWORD in .env}
+    volumes:
+      - db_data:/var/lib/mysql
+    healthcheck:
+      test: [CMD, healthcheck.sh, --connect, --innodb_initialized]
+      interval: 5s
+      timeout: 5s
+      retries: 20
+  php:
+    build:
+      context: .
+      dockerfile: docker/php.Dockerfile
+    restart: unless-stopped
+    environment:
+      DB_HOST: db
+      DB_DATABASE: ${DB_DATABASE:-fasiliti}
+      DB_USERNAME: ${DB_USERNAME:-fasiliti}
+      DB_PASSWORD: ${DB_PASSWORD}
+      COOKIE_SECURE: ${COOKIE_SECURE:-0}
+    volumes:
+      - sessions:/var/lib/php/sessions
+      - uploads:/var/www/html/storage/uploads
+    depends_on:
+      db:
+        condition: service_healthy
+  web:
+    build:
+      context: .
+      dockerfile: docker/web.Dockerfile
+    restart: unless-stopped
+    ports:
+      - "${BIND_ADDRESS:-127.0.0.1}:${APP_PORT:-8080}:80"
+    depends_on:
+      - php
+  scheduler:
+    build:
+      context: .
+      dockerfile: docker/php.Dockerfile
+    restart: unless-stopped
+    environment:
+      DB_HOST: db
+      DB_DATABASE: ${DB_DATABASE:-fasiliti}
+      DB_USERNAME: ${DB_USERNAME:-fasiliti}
+      DB_PASSWORD: ${DB_PASSWORD}
+    command: [sh, -c, 'while true; do php /var/www/html/bin/scheduler.php; sleep 60; done']
+    depends_on:
+      db:
+        condition: service_healthy
+  setup:
+    profiles: [tools]
+    build:
+      context: .
+      dockerfile: docker/php.Dockerfile
+    environment:
+      DB_HOST: db
+      DB_DATABASE: ${DB_DATABASE:-fasiliti}
+      DB_USERNAME: ${DB_USERNAME:-fasiliti}
+      DB_PASSWORD: ${DB_PASSWORD}
+      ADMIN_EMAIL: ${ADMIN_EMAIL:?Set ADMIN_EMAIL in .env}
+      ADMIN_NAME: ${ADMIN_NAME:-Pentadbir Sistem}
+      ADMIN_PASSWORD: ${ADMIN_PASSWORD:?Set ADMIN_PASSWORD in .env}
+    entrypoint: [php, /var/www/html/bin/setup.php]
+    depends_on:
+      db:
+        condition: service_healthy
+volumes:
+  db_data:
+  sessions:
+  uploads:

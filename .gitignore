@@ -1,0 +1,13 @@
+.env
+.env.*
+!.env.example
+node_modules/
+frontend/dist/
+frontend/.sites-checkout/
+*.log
+backups/
+
+backend/storage/
+frontend/tests/.render.test.mjs
+__pycache__/
+*.pyc

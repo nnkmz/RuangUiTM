@@ -1,0 +1,19 @@
+{
+  "name": "fasiliti-suite",
+  "version": "0.4.0-rc.1",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 0.0.0.0",
+    "build": "vite build",
+    "test": "node --test tests/import.test.js",
+    "test:render": "esbuild ./tests/render.test.jsx --bundle --platform=node --packages=external --loader:.css=empty --format=esm --outfile=tests/.render.test.mjs && node --test tests/.render.test.mjs"
+  },
+  "dependencies": {
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "lucide-react": "^0.468.0"
+  },
+  "devDependencies": {
+    "vite": "^6.0.0"
+  }
+}

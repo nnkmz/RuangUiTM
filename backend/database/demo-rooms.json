@@ -1,0 +1,4370 @@
+[
+  {
+    "id": "AKD-G-01",
+    "building": "AKD",
+    "floor": "G",
+    "code": "G-01",
+    "name": "Bilik Kuliah 1",
+    "type": "Bilik kuliah",
+    "category": "OCCUPIABLE",
+    "department": "Pengajian Komputer",
+    "division": "Akademik & Sokongan",
+    "standard": "KUL-40",
+    "capacity": 40,
+    "occupants": 0,
+    "status": "Digunakan",
+    "manual": 54,
+    "height": 3.2,
+    "finish": "Jubin seramik",
+    "ceiling": "Siling akustik",
+    "ac": true,
+    "accessible": true,
+    "prorate": "Jabatan",
+    "survey": "2026-11-02",
+    "pic": "Dr. Aina",
+    "notes": "Data contoh untuk semakan inventori ruang.",
+    "points": [
+      [
+        0,
+        0
+      ],
+      [
+        6,
+        0
+      ],
+      [
+        6,
+        9
+      ],
+      [
+        0,
+        9
+      ]
+    ],
+    "source": "Poligon demo",
+    "updated": "9 Nov 2026"
+  },
+  {
+    "id": "AKD-G-02",
+    "building": "AKD",
+    "floor": "G",
+    "code": "G-02",
+    "name": "Bilik Kuliah 2",
+    "type": "Bilik kuliah",
+    "category": "OCCUPIABLE",
+    "department": "Pengajian Komputer",
+    "division": "Akademik & Sokongan",
+    "standard": "KUL-40",
+    "capacity": 40,
+    "occupants": 38,
+    "status": "Digunakan",
+    "manual": 54,
+    "height": 3.2,
+    "finish": "Jubin seramik",
+    "ceiling": "Siling akustik",
+    "ac": true,
+    "accessible": true,
+    "prorate": "Jabatan",
+    "survey": "2026-11-02",
+    "pic": "En. Hafiz",
+    "notes": "Data contoh untuk semakan inventori ruang.",
+    "points": [
+      [
+        6,
+        0
+      ],
+      [
+        12,
+        0
+      ],
+      [
+        12,
+        9
+      ],
+      [
+        6,
+        9
+      ]
+    ],
+    "source": "Poligon demo",
+    "updated": "9 Nov 2026"
+  },
+  {
+    "id": "AKD-G-03",
+    "building": "AKD",
+    "floor": "G",
+    "code": "G-03",
+    "name": "Makmal Komputer 1",
+    "type": "Makmal",
+    "category": "OCCUPIABLE",
+    "department": "Pengajian Komputer",
+    "division": "Akademik & Sokongan",
+    "standard": "LAB-30",
+    "capacity": 30,
+    "occupants": 26,
+    "status": "Digunakan",
+    "manual": 81,
+    "height": 3.2,
+    "finish": "Jubin seramik",
+    "ceiling": "Siling akustik",
+    "ac": true,
+    "accessible": true,
+    "prorate": "Jabatan",
+    "survey": "2026-11-02",
+    "pic": "Pn. Sarah",
+    "notes": "Data contoh untuk semakan inventori ruang.",
+    "points": [
+      [
+        12,
+        0
+      ],
+      [
+        21,
+        0
+      ],
+      [
+        21,
+        9
+      ],
+      [
+        12,
+        9
+      ]
+    ],
+    "source": "Poligon demo",
+    "updated": "9 Nov 2026"
+  },
+  {
+    "id": "AKD-G-04",
+    "building": "AKD",
+    "floor": "G",
+    "code": "G-04",
+    "name": "Bilik Mesyuarat",
+    "type": "Mesyuarat",
+    "category": "OCCUPIABLE",
+    "department": "Pentadbiran",
+    "division": "Pengurusan Universiti",
+    "standard": "MES-16",
+    "capacity": 16,
+    "occupants": 16,
+    "status": "Digunakan",
+    "manual": 54,
+    "height": 3.2,
+    "finish": "Jubin seramik",
+    "ceiling": "Siling akustik",
+    "ac": true,
+    "accessible": true,
+    "prorate": "Jabatan",
+    "survey": "2026-11-02",
+    "pic": "Dr. Aina",
+    "notes": "Data contoh untuk semakan inventori ruang.",
+    "points": [
+      [
+        21,
+        0
+      ],
+      [
+        27,
+        0
+      ],
+      [
+        27,
+        9
+      ],
+      [
+        21,
+        9
+      ]
+    ],
+    "source": "Poligon demo",
+    "updated": "9 Nov 2026"
+  },
+  {
+    "id": "AKD-G-05",
+    "building": "AKD",
+    "floor": "G",
+    "code": "G-05",
+    "name": "Makmal Reka Bentuk",
+    "type": "Makmal",
+    "category": "OCCUPIABLE",
+    "department": "Pengajian Kejuruteraan",
+    "division": "Akademik & Sokongan",
+    "standard": "LAB-24",
+    "capacity": 24,
+    "occupants": 0,
+    "status": "Digunakan",
+    "manual": 81,
+    "height": 3.2,
+    "finish": "Jubin seramik",
+    "ceiling": "Siling akustik",
+    "ac": true,
+    "accessible": true,
+    "prorate": "Jabatan",
+    "survey": "2026-11-02",
+    "pic": "En. Hafiz",
+    "notes": "Data contoh untuk semakan inventori ruang.",
+    "points": [
+      [
+        27,
+        0
+      ],
+      [
+        36,
+        0
+      ],
+      [
+        36,
+        9
+      ],
+      [
+        27,
+        9
+      ]
+    ],
+    "source": "Poligon demo",
+    "updated": "9 Nov 2026"
+  },
+  {
+    "id": "AKD-G-06",
+    "building": "AKD",
+    "floor": "G",
+    "code": "G-06",
+    "name": "Pejabat Ketua",
+    "type": "Pejabat",
+    "category": "OCCUPIABLE",
+    "department": "Pentadbiran",
+    "division": "Pengurusan Universiti",
+    "standard": "OFF-02",
+    "capacity": 2,
+    "occupants": 0,
+    "status": "Digunakan",
+    "manual": 40.5,
+    "height": 3.2,
+    "finish": "Jubin seramik",
+    "ceiling": "Siling akustik",
+    "ac": true,
+    "accessible": true,
+    "prorate": "Jabatan",
+    "survey": "2026-11-02",
+    "pic": "Pn. Sarah",
+    "notes": "Data contoh untuk semakan inventori ruang.",
+    "points": [
+      [
+        0,
+        12
+      ],
+      [
+        4.5,
+        12
+      ],
+      [
+        4.5,
+        21
+      ],
+      [
+        0,
+        21
+      ]
+    ],
+    "source": "Poligon demo",
+    "updated": "9 Nov 2026"
+  },
+  {
+    "id": "AKD-G-07",
+    "building": "AKD",
+    "floor": "G",
+    "code": "G-07",
+    "name": "Pejabat Pensyarah 1",
+    "type": "Pejabat",
+    "category": "OCCUPIABLE",
+    "department": "Pengajian Komputer",
+    "division": "Akademik & Sokongan",
+    "standard": "OFF-06",
+    "capacity": 6,
+    "occupants": 6,
+    "status": "Digunakan",
+    "manual": 40.5,
+    "height": 3.2,
+    "finish": "Jubin seramik",
+    "ceiling": "Siling akustik",
+    "ac": true,
+    "accessible": true,
+    "prorate": "Jabatan",
+    "survey": "2026-11-02",
+    "pic": "Dr. Aina",
+    "notes": "Data contoh untuk semakan inventori ruang.",
+    "points": [
+      [
+        4.5,
+        12
+      ],
+      [
+        9,
+        12
+      ],
+      [
+        9,
+        21
+      ],
+      [
+        4.5,
+        21
+      ]
+    ],
+    "source": "Poligon demo",
+    "updated": "9 Nov 2026"
+  },
+  {
+    "id": "AKD-G-08",
+    "building": "AKD",
+    "floor": "G",
+    "code": "G-08",
+    "name": "Pejabat Pensyarah 2",
+    "type": "Pejabat",
+    "category": "OCCUPIABLE",
+    "department": "Pengajian Komputer",
+    "division": "Akademik & Sokongan",
+    "standard": "OFF-06",
+    "capacity": 6,
+    "occupants": 0,
+    "status": "Tidak digunakan",
+    "manual": 40.5,
+    "height": 3.2,
+    "finish": "Jubin seramik",
+    "ceiling": "Siling akustik",
+    "ac": true,
+    "accessible": true,
+    "prorate": "Jabatan",
+    "survey": "2026-11-02",
+    "pic": "En. Hafiz",
+    "notes": "Data contoh untuk semakan inventori ruang.",
+    "points": [
+      [
+        9,
+        12
+      ],
+      [
+        13.5,
+        12
+      ],
+      [
+        13.5,
+        21
+      ],
+      [
+        9,
+        21
+      ]
+    ],
+    "source": "Poligon demo",
+    "updated": "9 Nov 2026"
+  },
+  {
+    "id": "AKD-G-09",
+    "building": "AKD",
+    "floor": "G",
+    "code": "G-09",
+    "name": "Bilik Perbincangan",
+    "type": "Mesyuarat",
+    "category": "OCCUPIABLE",
+    "department": "Guna sama",
+    "division": "Akademik & Sokongan",
+    "standard": "MES-08",
+    "capacity": 8,
+    "occupants": 0,
+    "status": "Digunakan",
+    "manual": 40.5,
+    "height": 3.2,
+    "finish": "Jubin seramik",
+    "ceiling": "Siling akustik",
+    "ac": true,
+    "accessible": true,
+    "prorate": "Jabatan",
+    "survey": "2026-11-02",
+    "pic": "Pn. Sarah",
+    "notes": "Data contoh untuk semakan inventori ruang.",
+    "points": [
+      [
+        13.5,
+        12
+      ],
+      [
+        18,
+        12
+      ],
+      [
+        18,
+        21
+      ],
+      [
+        13.5,
+        21
+      ]
+    ],
+    "source": "Poligon demo",
+    "updated": "9 Nov 2026"
+  },
+  {
+    "id": "AKD-G-10",
+    "building": "AKD",
+    "floor": "G",
+    "code": "G-10",
+    "name": "Bilik Kuliah 3",
+    "type": "Bilik kuliah",
+    "category": "OCCUPIABLE",
+    "department": "Pengajian Kejuruteraan",
+    "division": "Akademik & Sokongan",
+    "standard": "KUL-60",
+    "capacity": 60,
+    "occupants": 60,
+    "status": "Digunakan",
+    "manual": 81,
+    "height": 3.2,
+    "finish": "Jubin seramik",
+    "ceiling": "Siling akustik",
+    "ac": true,
+    "accessible": true,
+    "prorate": "Jabatan",
+    "survey": "2026-11-02",
+    "pic": "Dr. Aina",
+    "notes": "Data contoh untuk semakan inventori ruang.",
+    "points": [
+      [
+        18,
+        12
+      ],
+      [
+        27,
+        12
+      ],
+      [
+        27,
+        21
+      ],
+      [
+        18,
+        21
+      ]
+    ],
+    "source": "Poligon demo",
+    "updated": "9 Nov 2026"
+  },
+  {
+    "id": "AKD-G-11",
+    "building": "AKD",
+    "floor": "G",
+    "code": "G-11",
+    "name": "Makmal Projek",
+    "type": "Makmal",
+    "category": "OCCUPIABLE",
+    "department": "Pengajian Kejuruteraan",
+    "division": "Akademik & Sokongan",
+    "standard": "LAB-20",
+    "capacity": 20,
+    "occupants": 18,
+    "status": "Digunakan",
+    "manual": 72,
+    "height": 3.2,
+    "finish": "Jubin seramik",
+    "ceiling": "Siling akustik",
+    "ac": true,
+    "accessible": true,
+    "prorate": "Jabatan",
+    "survey": "2026-11-02",
+    "pic": "En. Hafiz",
+    "notes": "Sempadan berbentuk L; keluasan dikira daripada poligon.",
+    "points": [
+      [
+        27,
+        12
+      ],
+      [
+        36,
+        12
+      ],
+      [
+        36,
+        21
+      ],
+      [
+        30,
+        21
+      ],
+      [
+        30,
+        18
+      ],
+      [
+        27,
+        18
+      ]
+    ],
+    "source": "Poligon demo",
+    "updated": "9 Nov 2026"
+  },
+  {
+    "id": "AKD-G-12",
+    "building": "AKD",
+    "floor": "G",
+    "code": "G-12",
+    "name": "Tangga A",
+    "type": "Sokongan",
+    "category": "VERT",
+    "department": "Guna sama",
+    "division": "Akademik & Sokongan",
+    "standard": "SERV",
+    "capacity": 0,
+    "occupants": 0,
+    "status": "Digunakan",
+    "manual": 36,
+    "height": 3.2,
+    "finish": "Jubin seramik",
+    "ceiling": "Siling akustik",
+    "ac": true,
+    "accessible": false,
+    "prorate": "Guna sama tingkat",
+    "survey": "2026-11-02",
+    "pic": "Pn. Sarah",
+    "notes": "Data contoh untuk semakan inventori ruang.",
+    "points": [
+      [
+        36,
+        0
+      ],
+      [
+        42,
+        0
+      ],
+      [
+        42,
+        6
+      ],
+      [
+        36,
+        6
+      ]
+    ],
+    "source": "Poligon demo",
+    "updated": "9 Nov 2026"
+  },
+  {
+    "id": "AKD-G-13",
+    "building": "AKD",
+    "floor": "G",
+    "code": "G-13",
+    "name": "Tandas Lelaki",
+    "type": "Sokongan",
+    "category": "SERV",
+    "department": "Guna sama",
+    "division": "Akademik & Sokongan",
+    "standard": "SERV",
+    "capacity": 0,
+    "occupants": 0,
+    "status": "Digunakan",
+    "manual": 27,
+    "height": 3.2,
+    "finish": "Jubin seramik",
+    "ceiling": "Siling akustik",
+    "ac": true,
+    "accessible": true,
+    "prorate": "Guna sama tingkat",
+    "survey": "2026-11-02",
+    "pic": "Dr. Aina",
+    "notes": "Data contoh untuk semakan inventori ruang.",
+    "points": [
+      [
+        36,
+        6
+      ],
+      [
+        42,
+        6
+      ],
+      [
+        42,
+        10.5
+      ],
+      [
+        36,
+        10.5
+      ]
+    ],
+    "source": "Poligon demo",
+    "updated": "9 Nov 2026"
+  },
+  {
+    "id": "AKD-G-14",
+    "building": "AKD",
+    "floor": "G",
+    "code": "G-14",
+    "name": "Tandas Wanita",
+    "type": "Sokongan",
+    "category": "SERV",
+    "department": "Guna sama",
+    "division": "Akademik & Sokongan",
+    "standard": "SERV",
+    "capacity": 0,
+    "occupants": 0,
+    "status": "Digunakan",
+    "manual": 27,
+    "height": 3.2,
+    "finish": "Jubin seramik",
+    "ceiling": "Siling akustik",
+    "ac": true,
+    "accessible": true,
+    "prorate": "Guna sama tingkat",
+    "survey": "2026-11-02",
+    "pic": "En. Hafiz",
+    "notes": "Data contoh untuk semakan inventori ruang.",
+    "points": [
+      [
+        36,
+        10.5
+      ],
+      [
+        42,
+        10.5
+      ],
+      [
+        42,
+        15
+      ],
+      [
+        36,
+        15
+      ]
+    ],
+    "source": "Poligon demo",
+    "updated": "9 Nov 2026"
+  },
+  {
+    "id": "AKD-G-15",
+    "building": "AKD",
+    "floor": "G",
+    "code": "G-15",
+    "name": "Tangga B",
+    "type": "Sokongan",
+    "category": "VERT",
+    "department": "Guna sama",
+    "division": "Akademik & Sokongan",
+    "standard": "SERV",
+    "capacity": 0,
+    "occupants": 0,
+    "status": "Digunakan",
+    "manual": 36,
+    "height": 3.2,
+    "finish": "Jubin seramik",
+    "ceiling": "Siling akustik",
+    "ac": true,
+    "accessible": false,
+    "prorate": "Guna sama tingkat",
+    "survey": "2026-11-02",
+    "pic": "Pn. Sarah",
+    "notes": "Data contoh untuk semakan inventori ruang.",
+    "points": [
+      [
+        36,
+        15
+      ],
+      [
+        42,
+        15
+      ],
+      [
+        42,
+        21
+      ],
+      [
+        36,
+        21
+      ]
+    ],
+    "source": "Poligon demo",
+    "updated": "9 Nov 2026"
+  },
+  {
+    "id": "AKD-G-16",
+    "building": "AKD",
+    "floor": "G",
+    "code": "G-16",
+    "name": "Koridor Utama",
+    "type": "Sirkulasi",
+    "category": "CIRC",
+    "department": "Guna sama",
+    "division": "Akademik & Sokongan",
+    "standard": "CIRC",
+    "capacity": 0,
+    "occupants": 0,
+    "status": "Digunakan",
+    "manual": 108,
+    "height": 3.2,
+    "finish": "Jubin seramik",
+    "ceiling": "Siling akustik",
+    "ac": true,
+    "accessible": true,
+    "prorate": "Guna sama tingkat",
+    "survey": "2026-11-02",
+    "pic": "Dr. Aina",
+    "notes": "Data contoh untuk semakan inventori ruang.",
+    "points": [
+      [
+        0,
+        9
+      ],
+      [
+        36,
+        9
+      ],
+      [
+        36,
+        12
+      ],
+      [
+        0,
+        12
+      ]
+    ],
+    "source": "Poligon demo",
+    "updated": "9 Nov 2026"
+  },
+  {
+    "id": "AKD-01-01",
+    "building": "AKD",
+    "floor": "01",
+    "code": "01-01",
+    "name": "Bilik Kuliah 1",
+    "type": "Bilik kuliah",
+    "category": "OCCUPIABLE",
+    "department": "Pengajian Komputer",
+    "division": "Akademik & Sokongan",
+    "standard": "KUL-40",
+    "capacity": 40,
+    "occupants": 0,
+    "status": "Digunakan",
+    "manual": 54,
+    "height": 3.2,
+    "finish": "Jubin seramik",
+    "ceiling": "Siling akustik",
+    "ac": true,
+    "accessible": true,
+    "prorate": "Jabatan",
+    "survey": "2026-11-02",
+    "pic": "Dr. Aina",
+    "notes": "Data contoh untuk semakan inventori ruang.",
+    "points": [
+      [
+        0,
+        0
+      ],
+      [
+        6,
+        0
+      ],
+      [
+        6,
+        9
+      ],
+      [
+        0,
+        9
+      ]
+    ],
+    "source": "Poligon demo",
+    "updated": "9 Nov 2026"
+  },
+  {
+    "id": "AKD-01-02",
+    "building": "AKD",
+    "floor": "01",
+    "code": "01-02",
+    "name": "Bilik Kuliah 2",
+    "type": "Bilik kuliah",
+    "category": "OCCUPIABLE",
+    "department": "Pengajian Komputer",
+    "division": "Akademik & Sokongan",
+    "standard": "KUL-40",
+    "capacity": 40,
+    "occupants": 38,
+    "status": "Digunakan",
+    "manual": 54,
+    "height": 3.2,
+    "finish": "Jubin seramik",
+    "ceiling": "Siling akustik",
+    "ac": true,
+    "accessible": true,
+    "prorate": "Jabatan",
+    "survey": "2026-11-02",
+    "pic": "En. Hafiz",
+    "notes": "Data contoh untuk semakan inventori ruang.",
+    "points": [
+      [
+        6,
+        0
+      ],
+      [
+        12,
+        0
+      ],
+      [
+        12,
+        9
+      ],
+      [
+        6,
+        9
+      ]
+    ],
+    "source": "Poligon demo",
+    "updated": "9 Nov 2026"
+  },
+  {
+    "id": "AKD-01-03",
+    "building": "AKD",
+    "floor": "01",
+    "code": "01-03",
+    "name": "Makmal Komputer 1",
+    "type": "Makmal",
+    "category": "OCCUPIABLE",
+    "department": "Pengajian Komputer",
+    "division": "Akademik & Sokongan",
+    "standard": "LAB-30",
+    "capacity": 30,
+    "occupants": 26,
+    "status": "Digunakan",
+    "manual": 81,
+    "height": 3.2,
+    "finish": "Jubin seramik",
+    "ceiling": "Siling akustik",
+    "ac": true,
+    "accessible": true,
+    "prorate": "Jabatan",
+    "survey": "2026-11-02",
+    "pic": "Pn. Sarah",
+    "notes": "Data contoh untuk semakan inventori ruang.",
+    "points": [
+      [
+        12,
+        0
+      ],
+      [
+        21,
+        0
+      ],
+      [
+        21,
+        9
+      ],
+      [
+        12,
+        9
+      ]
+    ],
+    "source": "Poligon demo",
+    "updated": "9 Nov 2026"
+  },
+  {
+    "id": "AKD-01-04",
+    "building": "AKD",
+    "floor": "01",
+    "code": "01-04",
+    "name": "Bilik Mesyuarat",
+    "type": "Mesyuarat",
+    "category": "OCCUPIABLE",
+    "department": "Pentadbiran",
+    "division": "Pengurusan Universiti",
+    "standard": "MES-16",
+    "capacity": 16,
+    "occupants": 16,
+    "status": "Digunakan",
+    "manual": 54,
+    "height": 3.2,
+    "finish": "Jubin seramik",
+    "ceiling": "Siling akustik",
+    "ac": true,
+    "accessible": true,
+    "prorate": "Jabatan",
+    "survey": "2026-11-02",
+    "pic": "Dr. Aina",
+    "notes": "Data contoh untuk semakan inventori ruang.",
+    "points": [
+      [
+        21,
+        0
+      ],
+      [
+        27,
+        0
+      ],
+      [
+        27,
+        9
+      ],
+      [
+        21,
+        9
+      ]
+    ],
+    "source": "Poligon demo",
+    "updated": "9 Nov 2026"
+  },
+  {
+    "id": "AKD-01-05",
+    "building": "AKD",
+    "floor": "01",
+    "code": "01-05",
+    "name": "Makmal Reka Bentuk",
+    "type": "Makmal",
+    "category": "OCCUPIABLE",
+    "department": "Pengajian Kejuruteraan",
+    "division": "Akademik & Sokongan",
+    "standard": "LAB-24",
+    "capacity": 24,
+    "occupants": 0,
+    "status": "Digunakan",
+    "manual": 81,
+    "height": 3.2,
+    "finish": "Jubin seramik",
+    "ceiling": "Siling akustik",
+    "ac": true,
+    "accessible": true,
+    "prorate": "Jabatan",
+    "survey": "2026-11-02",
+    "pic": "En. Hafiz",
+    "notes": "Data contoh untuk semakan inventori ruang.",
+    "points": [
+      [
+        27,
+        0
+      ],
+      [
+        36,
+        0
+      ],
+      [
+        36,
+        9
+      ],
+      [
+        27,
+        9
+      ]
+    ],
+    "source": "Poligon demo",
+    "updated": "9 Nov 2026"
+  },
+  {
+    "id": "AKD-01-06",
+    "building": "AKD",
+    "floor": "01",
+    "code": "01-06",
+    "name": "Pejabat Ketua",
+    "type": "Pejabat",
+    "category": "OCCUPIABLE",
+    "department": "Pentadbiran",
+    "division": "Pengurusan Universiti",
+    "standard": "OFF-02",
+    "capacity": 2,
+    "occupants": 0,
+    "status": "Digunakan",
+    "manual": 40.5,
+    "height": 3.2,
+    "finish": "Jubin seramik",
+    "ceiling": "Siling akustik",
+    "ac": true,
+    "accessible": true,
+    "prorate": "Jabatan",
+    "survey": "2026-11-02",
+    "pic": "Pn. Sarah",
+    "notes": "Data contoh untuk semakan inventori ruang.",
+    "points": [
+      [
+        0,
+        12
+      ],
+      [
+        4.5,
+        12
+      ],
+      [
+        4.5,
+        21
+      ],
+      [
+        0,
+        21
+      ]
+    ],
+    "source": "Poligon demo",
+    "updated": "9 Nov 2026"
+  },
+  {
+    "id": "AKD-01-07",
+    "building": "AKD",
+    "floor": "01",
+    "code": "01-07",
+    "name": "Pejabat Pensyarah 1",
+    "type": "Pejabat",
+    "category": "OCCUPIABLE",
+    "department": "Pengajian Komputer",
+    "division": "Akademik & Sokongan",
+    "standard": "OFF-06",
+    "capacity": 6,
+    "occupants": 6,
+    "status": "Digunakan",
+    "manual": 40.5,
+    "height": 3.2,
+    "finish": "Jubin seramik",
+    "ceiling": "Siling akustik",
+    "ac": true,
+    "accessible": true,
+    "prorate": "Jabatan",
+    "survey": "2026-11-02",
+    "pic": "Dr. Aina",
+    "notes": "Data contoh untuk semakan inventori ruang.",
+    "points": [
+      [
+        4.5,
+        12
+      ],
+      [
+        9,
+        12
+      ],
+      [
+        9,
+        21
+      ],
+      [
+        4.5,
+        21
+      ]
+    ],
+    "source": "Poligon demo",
+    "updated": "9 Nov 2026"
+  },
+  {
+    "id": "AKD-01-08",
+    "building": "AKD",
+    "floor": "01",
+    "code": "01-08",
+    "name": "Pejabat Pensyarah 2",
+    "type": "Pejabat",
+    "category": "OCCUPIABLE",
+    "department": "Pengajian Komputer",
+    "division": "Akademik & Sokongan",
+    "standard": "OFF-06",
+    "capacity": 6,
+    "occupants": 0,
+    "status": "Tidak digunakan",
+    "manual": 40.5,
+    "height": 3.2,
+    "finish": "Jubin seramik",
+    "ceiling": "Siling akustik",
+    "ac": true,
+    "accessible": true,
+    "prorate": "Jabatan",
+    "survey": "2026-11-02",
+    "pic": "En. Hafiz",
+    "notes": "Data contoh untuk semakan inventori ruang.",
+    "points": [
+      [
+        9,
+        12
+      ],
+      [
+        13.5,
+        12
+      ],
+      [
+        13.5,
+        21
+      ],
+      [
+        9,
+        21
+      ]
+    ],
+    "source": "Poligon demo",
+    "updated": "9 Nov 2026"
+  },
+  {
+    "id": "AKD-01-09",
+    "building": "AKD",
+    "floor": "01",
+    "code": "01-09",
+    "name": "Bilik Perbincangan",
+    "type": "Mesyuarat",
+    "category": "OCCUPIABLE",
+    "department": "Guna sama",
+    "division": "Akademik & Sokongan",
+    "standard": "MES-08",
+    "capacity": 8,
+    "occupants": 0,
+    "status": "Digunakan",
+    "manual": 40.5,
+    "height": 3.2,
+    "finish": "Jubin seramik",
+    "ceiling": "Siling akustik",
+    "ac": true,
+    "accessible": true,
+    "prorate": "Jabatan",
+    "survey": "2026-11-02",
+    "pic": "Pn. Sarah",
+    "notes": "Data contoh untuk semakan inventori ruang.",
+    "points": [
+      [
+        13.5,
+        12
+      ],
+      [
+        18,
+        12
+      ],
+      [
+        18,
+        21
+      ],
+      [
+        13.5,
+        21
+      ]
+    ],
+    "source": "Poligon demo",
+    "updated": "9 Nov 2026"
+  },
+  {
+    "id": "AKD-01-10",
+    "building": "AKD",
+    "floor": "01",
+    "code": "01-10",
+    "name": "Bilik Kuliah 3",
+    "type": "Bilik kuliah",
+    "category": "OCCUPIABLE",
+    "department": "Pengajian Kejuruteraan",
+    "division": "Akademik & Sokongan",
+    "standard": "KUL-60",
+    "capacity": 60,
+    "occupants": 60,
+    "status": "Digunakan",
+    "manual": 81,
+    "height": 3.2,
+    "finish": "Jubin seramik",
+    "ceiling": "Siling akustik",
+    "ac": true,
+    "accessible": true,
+    "prorate": "Jabatan",
+    "survey": "2026-11-02",
+    "pic": "Dr. Aina",
+    "notes": "Data contoh untuk semakan inventori ruang.",
+    "points": [
+      [
+        18,
+        12
+      ],
+      [
+        27,
+        12
+      ],
+      [
+        27,
+        21
+      ],
+      [
+        18,
+        21
+      ]
+    ],
+    "source": "Poligon demo",
+    "updated": "9 Nov 2026"
+  },
+  {
+    "id": "AKD-01-11",
+    "building": "AKD",
+    "floor": "01",
+    "code": "01-11",
+    "name": "Makmal Projek",
+    "type": "Makmal",
+    "category": "OCCUPIABLE",
+    "department": "Pengajian Kejuruteraan",
+    "division": "Akademik & Sokongan",
+    "standard": "LAB-20",
+    "capacity": 20,
+    "occupants": 18,
+    "status": "Digunakan",
+    "manual": 72,
+    "height": 3.2,
+    "finish": "Jubin seramik",
+    "ceiling": "Siling akustik",
+    "ac": true,
+    "accessible": true,
+    "prorate": "Jabatan",
+    "survey": "2026-11-02",
+    "pic": "En. Hafiz",
+    "notes": "Sempadan berbentuk L; keluasan dikira daripada poligon.",
+    "points": [
+      [
+        27,
+        12
+      ],
+      [
+        36,
+        12
+      ],
+      [
+        36,
+        21
+      ],
+      [
+        30,
+        21
+      ],
+      [
+        30,
+        18
+      ],
+      [
+        27,
+        18
+      ]
+    ],
+    "source": "Poligon demo",
+    "updated": "9 Nov 2026"
+  },
+  {
+    "id": "AKD-01-12",
+    "building": "AKD",
+    "floor": "01",
+    "code": "01-12",
+    "name": "Tangga A",
+    "type": "Sokongan",
+    "category": "VERT",
+    "department": "Guna sama",
+    "division": "Akademik & Sokongan",
+    "standard": "SERV",
+    "capacity": 0,
+    "occupants": 0,
+    "status": "Digunakan",
+    "manual": 36,
+    "height": 3.2,
+    "finish": "Jubin seramik",
+    "ceiling": "Siling akustik",
+    "ac": true,
+    "accessible": false,
+    "prorate": "Guna sama tingkat",
+    "survey": "2026-11-02",
+    "pic": "Pn. Sarah",
+    "notes": "Data contoh untuk semakan inventori ruang.",
+    "points": [
+      [
+        36,
+        0
+      ],
+      [
+        42,
+        0
+      ],
+      [
+        42,
+        6
+      ],
+      [
+        36,
+        6
+      ]
+    ],
+    "source": "Poligon demo",
+    "updated": "9 Nov 2026"
+  },
+  {
+    "id": "AKD-01-13",
+    "building": "AKD",
+    "floor": "01",
+    "code": "01-13",
+    "name": "Tandas Lelaki",
+    "type": "Sokongan",
+    "category": "SERV",
+    "department": "Guna sama",
+    "division": "Akademik & Sokongan",
+    "standard": "SERV",
+    "capacity": 0,
+    "occupants": 0,
+    "status": "Digunakan",
+    "manual": 27,
+    "height": 3.2,
+    "finish": "Jubin seramik",
+    "ceiling": "Siling akustik",
+    "ac": true,
+    "accessible": true,
+    "prorate": "Guna sama tingkat",
+    "survey": "2026-11-02",
+    "pic": "Dr. Aina",
+    "notes": "Data contoh untuk semakan inventori ruang.",
+    "points": [
+      [
+        36,
+        6
+      ],
+      [
+        42,
+        6
+      ],
+      [
+        42,
+        10.5
+      ],
+      [
+        36,
+        10.5
+      ]
+    ],
+    "source": "Poligon demo",
+    "updated": "9 Nov 2026"
+  },
+  {
+    "id": "AKD-01-14",
+    "building": "AKD",
+    "floor": "01",
+    "code": "01-14",
+    "name": "Tandas Wanita",
+    "type": "Sokongan",
+    "category": "SERV",
+    "department": "Guna sama",
+    "division": "Akademik & Sokongan",
+    "standard": "SERV",
+    "capacity": 0,
+    "occupants": 0,
+    "status": "Digunakan",
+    "manual": 27,
+    "height": 3.2,
+    "finish": "Jubin seramik",
+    "ceiling": "Siling akustik",
+    "ac": true,
+    "accessible": true,
+    "prorate": "Guna sama tingkat",
+    "survey": "2026-11-02",
+    "pic": "En. Hafiz",
+    "notes": "Data contoh untuk semakan inventori ruang.",
+    "points": [
+      [
+        36,
+        10.5
+      ],
+      [
+        42,
+        10.5
+      ],
+      [
+        42,
+        15
+      ],
+      [
+        36,
+        15
+      ]
+    ],
+    "source": "Poligon demo",
+    "updated": "9 Nov 2026"
+  },
+  {
+    "id": "AKD-01-15",
+    "building": "AKD",
+    "floor": "01",
+    "code": "01-15",
+    "name": "Tangga B",
+    "type": "Sokongan",
+    "category": "VERT",
+    "department": "Guna sama",
+    "division": "Akademik & Sokongan",
+    "standard": "SERV",
+    "capacity": 0,
+    "occupants": 0,
+    "status": "Digunakan",
+    "manual": 36,
+    "height": 3.2,
+    "finish": "Jubin seramik",
+    "ceiling": "Siling akustik",
+    "ac": true,
+    "accessible": false,
+    "prorate": "Guna sama tingkat",
+    "survey": "2026-11-02",
+    "pic": "Pn. Sarah",
+    "notes": "Data contoh untuk semakan inventori ruang.",
+    "points": [
+      [
+        36,
+        15
+      ],
+      [
+        42,
+        15
+      ],
+      [
+        42,
+        21
+      ],
+      [
+        36,
+        21
+      ]
+    ],
+    "source": "Poligon demo",
+    "updated": "9 Nov 2026"
+  },
+  {
+    "id": "AKD-01-16",
+    "building": "AKD",
+    "floor": "01",
+    "code": "01-16",
+    "name": "Koridor Utama",
+    "type": "Sirkulasi",
+    "category": "CIRC",
+    "department": "Guna sama",
+    "division": "Akademik & Sokongan",
+    "standard": "CIRC",
+    "capacity": 0,
+    "occupants": 0,
+    "status": "Digunakan",
+    "manual": 108,
+    "height": 3.2,
+    "finish": "Jubin seramik",
+    "ceiling": "Siling akustik",
+    "ac": true,
+    "accessible": true,
+    "prorate": "Guna sama tingkat",
+    "survey": "2026-11-02",
+    "pic": "Dr. Aina",
+    "notes": "Data contoh untuk semakan inventori ruang.",
+    "points": [
+      [
+        0,
+        9
+      ],
+      [
+        36,
+        9
+      ],
+      [
+        36,
+        12
+      ],
+      [
+        0,
+        12
+      ]
+    ],
+    "source": "Poligon demo",
+    "updated": "9 Nov 2026"
+  },
+  {
+    "id": "AKD-02-01",
+    "building": "AKD",
+    "floor": "02",
+    "code": "02-01",
+    "name": "Bilik Kuliah 1",
+    "type": "Bilik kuliah",
+    "category": "OCCUPIABLE",
+    "department": "Pengajian Komputer",
+    "division": "Akademik & Sokongan",
+    "standard": "KUL-40",
+    "capacity": 40,
+    "occupants": 0,
+    "status": "Digunakan",
+    "manual": 54,
+    "height": 3.2,
+    "finish": "Jubin seramik",
+    "ceiling": "Siling akustik",
+    "ac": true,
+    "accessible": true,
+    "prorate": "Jabatan",
+    "survey": "2026-11-02",
+    "pic": "Dr. Aina",
+    "notes": "Data contoh untuk semakan inventori ruang.",
+    "points": [
+      [
+        0,
+        0
+      ],
+      [
+        6,
+        0
+      ],
+      [
+        6,
+        9
+      ],
+      [
+        0,
+        9
+      ]
+    ],
+    "source": "Poligon demo",
+    "updated": "9 Nov 2026"
+  },
+  {
+    "id": "AKD-02-02",
+    "building": "AKD",
+    "floor": "02",
+    "code": "02-02",
+    "name": "Bilik Kuliah 2",
+    "type": "Bilik kuliah",
+    "category": "OCCUPIABLE",
+    "department": "Pengajian Komputer",
+    "division": "Akademik & Sokongan",
+    "standard": "KUL-40",
+    "capacity": 40,
+    "occupants": 38,
+    "status": "Digunakan",
+    "manual": 54,
+    "height": 3.2,
+    "finish": "Jubin seramik",
+    "ceiling": "Siling akustik",
+    "ac": true,
+    "accessible": true,
+    "prorate": "Jabatan",
+    "survey": "2026-11-02",
+    "pic": "En. Hafiz",
+    "notes": "Data contoh untuk semakan inventori ruang.",
+    "points": [
+      [
+        6,
+        0
+      ],
+      [
+        12,
+        0
+      ],
+      [
+        12,
+        9
+      ],
+      [
+        6,
+        9
+      ]
+    ],
+    "source": "Poligon demo",
+    "updated": "9 Nov 2026"
+  },
+  {
+    "id": "AKD-02-03",
+    "building": "AKD",
+    "floor": "02",
+    "code": "02-03",
+    "name": "Makmal Komputer 1",
+    "type": "Makmal",
+    "category": "OCCUPIABLE",
+    "department": "Pengajian Komputer",
+    "division": "Akademik & Sokongan",
+    "standard": "LAB-30",
+    "capacity": 30,
+    "occupants": 26,
+    "status": "Digunakan",
+    "manual": 81,
+    "height": 3.2,
+    "finish": "Jubin seramik",
+    "ceiling": "Siling akustik",
+    "ac": true,
+    "accessible": true,
+    "prorate": "Jabatan",
+    "survey": "2026-11-02",
+    "pic": "Pn. Sarah",
+    "notes": "Data contoh untuk semakan inventori ruang.",
+    "points": [
+      [
+        12,
+        0
+      ],
+      [
+        21,
+        0
+      ],
+      [
+        21,
+        9
+      ],
+      [
+        12,
+        9
+      ]
+    ],
+    "source": "Poligon demo",
+    "updated": "9 Nov 2026"
+  },
+  {
+    "id": "AKD-02-04",
+    "building": "AKD",
+    "floor": "02",
+    "code": "02-04",
+    "name": "Bilik Mesyuarat",
+    "type": "Mesyuarat",
+    "category": "OCCUPIABLE",
+    "department": "Pentadbiran",
+    "division": "Pengurusan Universiti",
+    "standard": "MES-16",
+    "capacity": 16,
+    "occupants": 16,
+    "status": "Digunakan",
+    "manual": 54,
+    "height": 3.2,
+    "finish": "Jubin seramik",
+    "ceiling": "Siling akustik",
+    "ac": true,
+    "accessible": true,
+    "prorate": "Jabatan",
+    "survey": "2026-11-02",
+    "pic": "Dr. Aina",
+    "notes": "Data contoh untuk semakan inventori ruang.",
+    "points": [
+      [
+        21,
+        0
+      ],
+      [
+        27,
+        0
+      ],
+      [
+        27,
+        9
+      ],
+      [
+        21,
+        9
+      ]
+    ],
+    "source": "Poligon demo",
+    "updated": "9 Nov 2026"
+  },
+  {
+    "id": "AKD-02-05",
+    "building": "AKD",
+    "floor": "02",
+    "code": "02-05",
+    "name": "Makmal Reka Bentuk",
+    "type": "Makmal",
+    "category": "OCCUPIABLE",
+    "department": "Pengajian Kejuruteraan",
+    "division": "Akademik & Sokongan",
+    "standard": "LAB-24",
+    "capacity": 24,
+    "occupants": 0,
+    "status": "Digunakan",
+    "manual": 81,
+    "height": 3.2,
+    "finish": "Jubin seramik",
+    "ceiling": "Siling akustik",
+    "ac": true,
+    "accessible": true,
+    "prorate": "Jabatan",
+    "survey": "2026-11-02",
+    "pic": "En. Hafiz",
+    "notes": "Data contoh untuk semakan inventori ruang.",
+    "points": [
+      [
+        27,
+        0
+      ],
+      [
+        36,
+        0
+      ],
+      [
+        36,
+        9
+      ],
+      [
+        27,
+        9
+      ]
+    ],
+    "source": "Poligon demo",
+    "updated": "9 Nov 2026"
+  },
+  {
+    "id": "AKD-02-06",
+    "building": "AKD",
+    "floor": "02",
+    "code": "02-06",
+    "name": "Pejabat Ketua",
+    "type": "Pejabat",
+    "category": "OCCUPIABLE",
+    "department": "Pentadbiran",
+    "division": "Pengurusan Universiti",
+    "standard": "OFF-02",
+    "capacity": 2,
+    "occupants": 0,
+    "status": "Digunakan",
+    "manual": 40.5,
+    "height": 3.2,
+    "finish": "Jubin seramik",
+    "ceiling": "Siling akustik",
+    "ac": true,
+    "accessible": true,
+    "prorate": "Jabatan",
+    "survey": "2026-11-02",
+    "pic": "Pn. Sarah",
+    "notes": "Data contoh untuk semakan inventori ruang.",
+    "points": [
+      [
+        0,
+        12
+      ],
+      [
+        4.5,
+        12
+      ],
+      [
+        4.5,
+        21
+      ],
+      [
+        0,
+        21
+      ]
+    ],
+    "source": "Poligon demo",
+    "updated": "9 Nov 2026"
+  },
+  {
+    "id": "AKD-02-07",
+    "building": "AKD",
+    "floor": "02",
+    "code": "02-07",
+    "name": "Pejabat Pensyarah 1",
+    "type": "Pejabat",
+    "category": "OCCUPIABLE",
+    "department": "Pengajian Komputer",
+    "division": "Akademik & Sokongan",
+    "standard": "OFF-06",
+    "capacity": 6,
+    "occupants": 6,
+    "status": "Digunakan",
+    "manual": 40.5,
+    "height": 3.2,
+    "finish": "Jubin seramik",
+    "ceiling": "Siling akustik",
+    "ac": true,
+    "accessible": true,
+    "prorate": "Jabatan",
+    "survey": "2026-11-02",
+    "pic": "Dr. Aina",
+    "notes": "Data contoh untuk semakan inventori ruang.",
+    "points": [
+      [
+        4.5,
+        12
+      ],
+      [
+        9,
+        12
+      ],
+      [
+        9,
+        21
+      ],
+      [
+        4.5,
+        21
+      ]
+    ],
+    "source": "Poligon demo",
+    "updated": "9 Nov 2026"
+  },
+  {
+    "id": "AKD-02-08",
+    "building": "AKD",
+    "floor": "02",
+    "code": "02-08",
+    "name": "Pejabat Pensyarah 2",
+    "type": "Pejabat",
+    "category": "OCCUPIABLE",
+    "department": "Pengajian Komputer",
+    "division": "Akademik & Sokongan",
+    "standard": "OFF-06",
+    "capacity": 6,
+    "occupants": 0,
+    "status": "Tidak digunakan",
+    "manual": 40.5,
+    "height": 3.2,
+    "finish": "Jubin seramik",
+    "ceiling": "Siling akustik",
+    "ac": true,
+    "accessible": true,
+    "prorate": "Jabatan",
+    "survey": "2026-11-02",
+    "pic": "En. Hafiz",
+    "notes": "Data contoh untuk semakan inventori ruang.",
+    "points": [
+      [
+        9,
+        12
+      ],
+      [
+        13.5,
+        12
+      ],
+      [
+        13.5,
+        21
+      ],
+      [
+        9,
+        21
+      ]
+    ],
+    "source": "Poligon demo",
+    "updated": "9 Nov 2026"
+  },
+  {
+    "id": "AKD-02-09",
+    "building": "AKD",
+    "floor": "02",
+    "code": "02-09",
+    "name": "Bilik Perbincangan",
+    "type": "Mesyuarat",
+    "category": "OCCUPIABLE",
+    "department": "Guna sama",
+    "division": "Akademik & Sokongan",
+    "standard": "MES-08",
+    "capacity": 8,
+    "occupants": 0,
+    "status": "Digunakan",
+    "manual": 40.5,
+    "height": 3.2,
+    "finish": "Jubin seramik",
+    "ceiling": "Siling akustik",
+    "ac": true,
+    "accessible": true,
+    "prorate": "Jabatan",
+    "survey": "2026-11-02",
+    "pic": "Pn. Sarah",
+    "notes": "Data contoh untuk semakan inventori ruang.",
+    "points": [
+      [
+        13.5,
+        12
+      ],
+      [
+        18,
+        12
+      ],
+      [
+        18,
+        21
+      ],
+      [
+        13.5,
+        21
+      ]
+    ],
+    "source": "Poligon demo",
+    "updated": "9 Nov 2026"
+  },
+  {
+    "id": "AKD-02-10",
+    "building": "AKD",
+    "floor": "02",
+    "code": "02-10",
+    "name": "Bilik Kuliah 3",
+    "type": "Bilik kuliah",
+    "category": "OCCUPIABLE",
+    "department": "Pengajian Kejuruteraan",
+    "division": "Akademik & Sokongan",
+    "standard": "KUL-60",
+    "capacity": 60,
+    "occupants": 60,
+    "status": "Digunakan",
+    "manual": 81,
+    "height": 3.2,
+    "finish": "Jubin seramik",
+    "ceiling": "Siling akustik",
+    "ac": true,
+    "accessible": true,
+    "prorate": "Jabatan",
+    "survey": "2026-11-02",
+    "pic": "Dr. Aina",
+    "notes": "Data contoh untuk semakan inventori ruang.",
+    "points": [
+      [
+        18,
+        12
+      ],
+      [
+        27,
+        12
+      ],
+      [
+        27,
+        21
+      ],
+      [
+        18,
+        21
+      ]
+    ],
+    "source": "Poligon demo",
+    "updated": "9 Nov 2026"
+  },
+  {
+    "id": "AKD-02-11",
+    "building": "AKD",
+    "floor": "02",
+    "code": "02-11",
+    "name": "Makmal Projek",
+    "type": "Makmal",
+    "category": "OCCUPIABLE",
+    "department": "Pengajian Kejuruteraan",
+    "division": "Akademik & Sokongan",
+    "standard": "LAB-20",
+    "capacity": 20,
+    "occupants": 18,
+    "status": "Digunakan",
+    "manual": 72,
+    "height": 3.2,
+    "finish": "Jubin seramik",
+    "ceiling": "Siling akustik",
+    "ac": true,
+    "accessible": true,
+    "prorate": "Jabatan",
+    "survey": "2026-11-02",
+    "pic": "En. Hafiz",
+    "notes": "Sempadan berbentuk L; keluasan dikira daripada poligon.",
+    "points": [
+      [
+        27,
+        12
+      ],
+      [
+        36,
+        12
+      ],
+      [
+        36,
+        21
+      ],
+      [
+        30,
+        21
+      ],
+      [
+        30,
+        18
+      ],
+      [
+        27,
+        18
+      ]
+    ],
+    "source": "Poligon demo",
+    "updated": "9 Nov 2026"
+  },
+  {
+    "id": "AKD-02-12",
+    "building": "AKD",
+    "floor": "02",
+    "code": "02-12",
+    "name": "Tangga A",
+    "type": "Sokongan",
+    "category": "VERT",
+    "department": "Guna sama",
+    "division": "Akademik & Sokongan",
+    "standard": "SERV",
+    "capacity": 0,
+    "occupants": 0,
+    "status": "Digunakan",
+    "manual": 36,
+    "height": 3.2,
+    "finish": "Jubin seramik",
+    "ceiling": "Siling akustik",
+    "ac": true,
+    "accessible": false,
+    "prorate": "Guna sama tingkat",
+    "survey": "2026-11-02",
+    "pic": "Pn. Sarah",
+    "notes": "Data contoh untuk semakan inventori ruang.",
+    "points": [
+      [
+        36,
+        0
+      ],
+      [
+        42,
+        0
+      ],
+      [
+        42,
+        6
+      ],
+      [
+        36,
+        6
+      ]
+    ],
+    "source": "Poligon demo",
+    "updated": "9 Nov 2026"
+  },
+  {
+    "id": "AKD-02-13",
+    "building": "AKD",
+    "floor": "02",
+    "code": "02-13",
+    "name": "Tandas Lelaki",
+    "type": "Sokongan",
+    "category": "SERV",
+    "department": "Guna sama",
+    "division": "Akademik & Sokongan",
+    "standard": "SERV",
+    "capacity": 0,
+    "occupants": 0,
+    "status": "Digunakan",
+    "manual": 27,
+    "height": 3.2,
+    "finish": "Jubin seramik",
+    "ceiling": "Siling akustik",
+    "ac": true,
+    "accessible": true,
+    "prorate": "Guna sama tingkat",
+    "survey": "2026-11-02",
+    "pic": "Dr. Aina",
+    "notes": "Data contoh untuk semakan inventori ruang.",
+    "points": [
+      [
+        36,
+        6
+      ],
+      [
+        42,
+        6
+      ],
+      [
+        42,
+        10.5
+      ],
+      [
+        36,
+        10.5
+      ]
+    ],
+    "source": "Poligon demo",
+    "updated": "9 Nov 2026"
+  },
+  {
+    "id": "AKD-02-14",
+    "building": "AKD",
+    "floor": "02",
+    "code": "02-14",
+    "name": "Tandas Wanita",
+    "type": "Sokongan",
+    "category": "SERV",
+    "department": "Guna sama",
+    "division": "Akademik & Sokongan",
+    "standard": "SERV",
+    "capacity": 0,
+    "occupants": 0,
+    "status": "Digunakan",
+    "manual": 27,
+    "height": 3.2,
+    "finish": "Jubin seramik",
+    "ceiling": "Siling akustik",
+    "ac": true,
+    "accessible": true,
+    "prorate": "Guna sama tingkat",
+    "survey": "2026-11-02",
+    "pic": "En. Hafiz",
+    "notes": "Data contoh untuk semakan inventori ruang.",
+    "points": [
+      [
+        36,
+        10.5
+      ],
+      [
+        42,
+        10.5
+      ],
+      [
+        42,
+        15
+      ],
+      [
+        36,
+        15
+      ]
+    ],
+    "source": "Poligon demo",
+    "updated": "9 Nov 2026"
+  },
+  {
+    "id": "AKD-02-15",
+    "building": "AKD",
+    "floor": "02",
+    "code": "02-15",
+    "name": "Tangga B",
+    "type": "Sokongan",
+    "category": "VERT",
+    "department": "Guna sama",
+    "division": "Akademik & Sokongan",
+    "standard": "SERV",
+    "capacity": 0,
+    "occupants": 0,
+    "status": "Digunakan",
+    "manual": 36,
+    "height": 3.2,
+    "finish": "Jubin seramik",
+    "ceiling": "Siling akustik",
+    "ac": true,
+    "accessible": false,
+    "prorate": "Guna sama tingkat",
+    "survey": "2026-11-02",
+    "pic": "Pn. Sarah",
+    "notes": "Data contoh untuk semakan inventori ruang.",
+    "points": [
+      [
+        36,
+        15
+      ],
+      [
+        42,
+        15
+      ],
+      [
+        42,
+        21
+      ],
+      [
+        36,
+        21
+      ]
+    ],
+    "source": "Poligon demo",
+    "updated": "9 Nov 2026"
+  },
+  {
+    "id": "AKD-02-16",
+    "building": "AKD",
+    "floor": "02",
+    "code": "02-16",
+    "name": "Koridor Utama",
+    "type": "Sirkulasi",
+    "category": "CIRC",
+    "department": "Guna sama",
+    "division": "Akademik & Sokongan",
+    "standard": "CIRC",
+    "capacity": 0,
+    "occupants": 0,
+    "status": "Digunakan",
+    "manual": 108,
+    "height": 3.2,
+    "finish": "Jubin seramik",
+    "ceiling": "Siling akustik",
+    "ac": true,
+    "accessible": true,
+    "prorate": "Guna sama tingkat",
+    "survey": "2026-11-02",
+    "pic": "Dr. Aina",
+    "notes": "Data contoh untuk semakan inventori ruang.",
+    "points": [
+      [
+        0,
+        9
+      ],
+      [
+        36,
+        9
+      ],
+      [
+        36,
+        12
+      ],
+      [
+        0,
+        12
+      ]
+    ],
+    "source": "Poligon demo",
+    "updated": "9 Nov 2026"
+  },
+  {
+    "id": "PTD-G-01",
+    "building": "PTD",
+    "floor": "G",
+    "code": "G-01",
+    "name": "Ruang Latihan 1",
+    "type": "Bilik kuliah",
+    "category": "OCCUPIABLE",
+    "department": "Pengajian Komputer",
+    "division": "Akademik & Sokongan",
+    "standard": "KUL-40",
+    "capacity": 40,
+    "occupants": 0,
+    "status": "Digunakan",
+    "manual": 54,
+    "height": 3.2,
+    "finish": "Jubin seramik",
+    "ceiling": "Siling akustik",
+    "ac": true,
+    "accessible": true,
+    "prorate": "Jabatan",
+    "survey": "2026-11-02",
+    "pic": "Dr. Aina",
+    "notes": "Data contoh untuk semakan inventori ruang.",
+    "points": [
+      [
+        0,
+        0
+      ],
+      [
+        6,
+        0
+      ],
+      [
+        6,
+        9
+      ],
+      [
+        0,
+        9
+      ]
+    ],
+    "source": "Poligon demo",
+    "updated": "9 Nov 2026"
+  },
+  {
+    "id": "PTD-G-02",
+    "building": "PTD",
+    "floor": "G",
+    "code": "G-02",
+    "name": "Ruang Latihan 2",
+    "type": "Bilik kuliah",
+    "category": "OCCUPIABLE",
+    "department": "Pengajian Komputer",
+    "division": "Akademik & Sokongan",
+    "standard": "KUL-40",
+    "capacity": 40,
+    "occupants": 38,
+    "status": "Digunakan",
+    "manual": 54,
+    "height": 3.2,
+    "finish": "Jubin seramik",
+    "ceiling": "Siling akustik",
+    "ac": true,
+    "accessible": true,
+    "prorate": "Jabatan",
+    "survey": "2026-11-02",
+    "pic": "En. Hafiz",
+    "notes": "Data contoh untuk semakan inventori ruang.",
+    "points": [
+      [
+        6,
+        0
+      ],
+      [
+        12,
+        0
+      ],
+      [
+        12,
+        9
+      ],
+      [
+        6,
+        9
+      ]
+    ],
+    "source": "Poligon demo",
+    "updated": "9 Nov 2026"
+  },
+  {
+    "id": "PTD-G-03",
+    "building": "PTD",
+    "floor": "G",
+    "code": "G-03",
+    "name": "Makmal Komputer 1",
+    "type": "Makmal",
+    "category": "OCCUPIABLE",
+    "department": "Pengajian Komputer",
+    "division": "Akademik & Sokongan",
+    "standard": "LAB-30",
+    "capacity": 30,
+    "occupants": 26,
+    "status": "Digunakan",
+    "manual": 81,
+    "height": 3.2,
+    "finish": "Jubin seramik",
+    "ceiling": "Siling akustik",
+    "ac": true,
+    "accessible": true,
+    "prorate": "Jabatan",
+    "survey": "2026-11-02",
+    "pic": "Pn. Sarah",
+    "notes": "Data contoh untuk semakan inventori ruang.",
+    "points": [
+      [
+        12,
+        0
+      ],
+      [
+        21,
+        0
+      ],
+      [
+        21,
+        9
+      ],
+      [
+        12,
+        9
+      ]
+    ],
+    "source": "Poligon demo",
+    "updated": "9 Nov 2026"
+  },
+  {
+    "id": "PTD-G-04",
+    "building": "PTD",
+    "floor": "G",
+    "code": "G-04",
+    "name": "Bilik Mesyuarat",
+    "type": "Mesyuarat",
+    "category": "OCCUPIABLE",
+    "department": "Pentadbiran",
+    "division": "Pengurusan Universiti",
+    "standard": "MES-16",
+    "capacity": 16,
+    "occupants": 16,
+    "status": "Digunakan",
+    "manual": 54,
+    "height": 3.2,
+    "finish": "Jubin seramik",
+    "ceiling": "Siling akustik",
+    "ac": true,
+    "accessible": true,
+    "prorate": "Jabatan",
+    "survey": "2026-11-02",
+    "pic": "Dr. Aina",
+    "notes": "Data contoh untuk semakan inventori ruang.",
+    "points": [
+      [
+        21,
+        0
+      ],
+      [
+        27,
+        0
+      ],
+      [
+        27,
+        9
+      ],
+      [
+        21,
+        9
+      ]
+    ],
+    "source": "Poligon demo",
+    "updated": "9 Nov 2026"
+  },
+  {
+    "id": "PTD-G-05",
+    "building": "PTD",
+    "floor": "G",
+    "code": "G-05",
+    "name": "Makmal Reka Bentuk",
+    "type": "Makmal",
+    "category": "OCCUPIABLE",
+    "department": "Pengajian Kejuruteraan",
+    "division": "Akademik & Sokongan",
+    "standard": "LAB-24",
+    "capacity": 24,
+    "occupants": 0,
+    "status": "Digunakan",
+    "manual": 81,
+    "height": 3.2,
+    "finish": "Jubin seramik",
+    "ceiling": "Siling akustik",
+    "ac": true,
+    "accessible": true,
+    "prorate": "Jabatan",
+    "survey": "2026-11-02",
+    "pic": "En. Hafiz",
+    "notes": "Data contoh untuk semakan inventori ruang.",
+    "points": [
+      [
+        27,
+        0
+      ],
+      [
+        36,
+        0
+      ],
+      [
+        36,
+        9
+      ],
+      [
+        27,
+        9
+      ]
+    ],
+    "source": "Poligon demo",
+    "updated": "9 Nov 2026"
+  },
+  {
+    "id": "PTD-G-06",
+    "building": "PTD",
+    "floor": "G",
+    "code": "G-06",
+    "name": "Pejabat Ketua",
+    "type": "Pejabat",
+    "category": "OCCUPIABLE",
+    "department": "Pentadbiran",
+    "division": "Pengurusan Universiti",
+    "standard": "OFF-02",
+    "capacity": 2,
+    "occupants": 0,
+    "status": "Digunakan",
+    "manual": 40.5,
+    "height": 3.2,
+    "finish": "Jubin seramik",
+    "ceiling": "Siling akustik",
+    "ac": true,
+    "accessible": true,
+    "prorate": "Jabatan",
+    "survey": "2026-11-02",
+    "pic": "Pn. Sarah",
+    "notes": "Data contoh untuk semakan inventori ruang.",
+    "points": [
+      [
+        0,
+        12
+      ],
+      [
+        4.5,
+        12
+      ],
+      [
+        4.5,
+        21
+      ],
+      [
+        0,
+        21
+      ]
+    ],
+    "source": "Poligon demo",
+    "updated": "9 Nov 2026"
+  },
+  {
+    "id": "PTD-G-07",
+    "building": "PTD",
+    "floor": "G",
+    "code": "G-07",
+    "name": "Pejabat Pensyarah 1",
+    "type": "Pejabat",
+    "category": "OCCUPIABLE",
+    "department": "Pengajian Komputer",
+    "division": "Akademik & Sokongan",
+    "standard": "OFF-06",
+    "capacity": 6,
+    "occupants": 6,
+    "status": "Digunakan",
+    "manual": 40.5,
+    "height": 3.2,
+    "finish": "Jubin seramik",
+    "ceiling": "Siling akustik",
+    "ac": true,
+    "accessible": true,
+    "prorate": "Jabatan",
+    "survey": "2026-11-02",
+    "pic": "Dr. Aina",
+    "notes": "Data contoh untuk semakan inventori ruang.",
+    "points": [
+      [
+        4.5,
+        12
+      ],
+      [
+        9,
+        12
+      ],
+      [
+        9,
+        21
+      ],
+      [
+        4.5,
+        21
+      ]
+    ],
+    "source": "Poligon demo",
+    "updated": "9 Nov 2026"
+  },
+  {
+    "id": "PTD-G-08",
+    "building": "PTD",
+    "floor": "G",
+    "code": "G-08",
+    "name": "Pejabat Pensyarah 2",
+    "type": "Pejabat",
+    "category": "OCCUPIABLE",
+    "department": "Pengajian Komputer",
+    "division": "Akademik & Sokongan",
+    "standard": "OFF-06",
+    "capacity": 6,
+    "occupants": 0,
+    "status": "Tidak digunakan",
+    "manual": 40.5,
+    "height": 3.2,
+    "finish": "Jubin seramik",
+    "ceiling": "Siling akustik",
+    "ac": true,
+    "accessible": true,
+    "prorate": "Jabatan",
+    "survey": "2026-11-02",
+    "pic": "En. Hafiz",
+    "notes": "Data contoh untuk semakan inventori ruang.",
+    "points": [
+      [
+        9,
+        12
+      ],
+      [
+        13.5,
+        12
+      ],
+      [
+        13.5,
+        21
+      ],
+      [
+        9,
+        21
+      ]
+    ],
+    "source": "Poligon demo",
+    "updated": "9 Nov 2026"
+  },
+  {
+    "id": "PTD-G-09",
+    "building": "PTD",
+    "floor": "G",
+    "code": "G-09",
+    "name": "Bilik Perbincangan",
+    "type": "Mesyuarat",
+    "category": "OCCUPIABLE",
+    "department": "Guna sama",
+    "division": "Akademik & Sokongan",
+    "standard": "MES-08",
+    "capacity": 8,
+    "occupants": 0,
+    "status": "Digunakan",
+    "manual": 40.5,
+    "height": 3.2,
+    "finish": "Jubin seramik",
+    "ceiling": "Siling akustik",
+    "ac": true,
+    "accessible": true,
+    "prorate": "Jabatan",
+    "survey": "2026-11-02",
+    "pic": "Pn. Sarah",
+    "notes": "Data contoh untuk semakan inventori ruang.",
+    "points": [
+      [
+        13.5,
+        12
+      ],
+      [
+        18,
+        12
+      ],
+      [
+        18,
+        21
+      ],
+      [
+        13.5,
+        21
+      ]
+    ],
+    "source": "Poligon demo",
+    "updated": "9 Nov 2026"
+  },
+  {
+    "id": "PTD-G-10",
+    "building": "PTD",
+    "floor": "G",
+    "code": "G-10",
+    "name": "Ruang Latihan 10",
+    "type": "Bilik kuliah",
+    "category": "OCCUPIABLE",
+    "department": "Pengajian Kejuruteraan",
+    "division": "Akademik & Sokongan",
+    "standard": "KUL-60",
+    "capacity": 60,
+    "occupants": 60,
+    "status": "Digunakan",
+    "manual": 81,
+    "height": 3.2,
+    "finish": "Jubin seramik",
+    "ceiling": "Siling akustik",
+    "ac": true,
+    "accessible": true,
+    "prorate": "Jabatan",
+    "survey": "2026-11-02",
+    "pic": "Dr. Aina",
+    "notes": "Data contoh untuk semakan inventori ruang.",
+    "points": [
+      [
+        18,
+        12
+      ],
+      [
+        27,
+        12
+      ],
+      [
+        27,
+        21
+      ],
+      [
+        18,
+        21
+      ]
+    ],
+    "source": "Poligon demo",
+    "updated": "9 Nov 2026"
+  },
+  {
+    "id": "PTD-G-11",
+    "building": "PTD",
+    "floor": "G",
+    "code": "G-11",
+    "name": "Makmal Projek",
+    "type": "Makmal",
+    "category": "OCCUPIABLE",
+    "department": "Pengajian Kejuruteraan",
+    "division": "Akademik & Sokongan",
+    "standard": "LAB-20",
+    "capacity": 20,
+    "occupants": 18,
+    "status": "Digunakan",
+    "manual": 72,
+    "height": 3.2,
+    "finish": "Jubin seramik",
+    "ceiling": "Siling akustik",
+    "ac": true,
+    "accessible": true,
+    "prorate": "Jabatan",
+    "survey": "2026-11-02",
+    "pic": "En. Hafiz",
+    "notes": "Sempadan berbentuk L; keluasan dikira daripada poligon.",
+    "points": [
+      [
+        27,
+        12
+      ],
+      [
+        36,
+        12
+      ],
+      [
+        36,
+        21
+      ],
+      [
+        30,
+        21
+      ],
+      [
+        30,
+        18
+      ],
+      [
+        27,
+        18
+      ]
+    ],
+    "source": "Poligon demo",
+    "updated": "9 Nov 2026"
+  },
+  {
+    "id": "PTD-G-12",
+    "building": "PTD",
+    "floor": "G",
+    "code": "G-12",
+    "name": "Tangga A",
+    "type": "Sokongan",
+    "category": "VERT",
+    "department": "Guna sama",
+    "division": "Akademik & Sokongan",
+    "standard": "SERV",
+    "capacity": 0,
+    "occupants": 0,
+    "status": "Digunakan",
+    "manual": 36,
+    "height": 3.2,
+    "finish": "Jubin seramik",
+    "ceiling": "Siling akustik",
+    "ac": true,
+    "accessible": false,
+    "prorate": "Guna sama tingkat",
+    "survey": "2026-11-02",
+    "pic": "Pn. Sarah",
+    "notes": "Data contoh untuk semakan inventori ruang.",
+    "points": [
+      [
+        36,
+        0
+      ],
+      [
+        42,
+        0
+      ],
+      [
+        42,
+        6
+      ],
+      [
+        36,
+        6
+      ]
+    ],
+    "source": "Poligon demo",
+    "updated": "9 Nov 2026"
+  },
+  {
+    "id": "PTD-G-13",
+    "building": "PTD",
+    "floor": "G",
+    "code": "G-13",
+    "name": "Tandas Lelaki",
+    "type": "Sokongan",
+    "category": "SERV",
+    "department": "Guna sama",
+    "division": "Akademik & Sokongan",
+    "standard": "SERV",
+    "capacity": 0,
+    "occupants": 0,
+    "status": "Digunakan",
+    "manual": 27,
+    "height": 3.2,
+    "finish": "Jubin seramik",
+    "ceiling": "Siling akustik",
+    "ac": true,
+    "accessible": true,
+    "prorate": "Guna sama tingkat",
+    "survey": "2026-11-02",
+    "pic": "Dr. Aina",
+    "notes": "Data contoh untuk semakan inventori ruang.",
+    "points": [
+      [
+        36,
+        6
+      ],
+      [
+        42,
+        6
+      ],
+      [
+        42,
+        10.5
+      ],
+      [
+        36,
+        10.5
+      ]
+    ],
+    "source": "Poligon demo",
+    "updated": "9 Nov 2026"
+  },
+  {
+    "id": "PTD-G-14",
+    "building": "PTD",
+    "floor": "G",
+    "code": "G-14",
+    "name": "Tandas Wanita",
+    "type": "Sokongan",
+    "category": "SERV",
+    "department": "Guna sama",
+    "division": "Akademik & Sokongan",
+    "standard": "SERV",
+    "capacity": 0,
+    "occupants": 0,
+    "status": "Digunakan",
+    "manual": 27,
+    "height": 3.2,
+    "finish": "Jubin seramik",
+    "ceiling": "Siling akustik",
+    "ac": true,
+    "accessible": true,
+    "prorate": "Guna sama tingkat",
+    "survey": "2026-11-02",
+    "pic": "En. Hafiz",
+    "notes": "Data contoh untuk semakan inventori ruang.",
+    "points": [
+      [
+        36,
+        10.5
+      ],
+      [
+        42,
+        10.5
+      ],
+      [
+        42,
+        15
+      ],
+      [
+        36,
+        15
+      ]
+    ],
+    "source": "Poligon demo",
+    "updated": "9 Nov 2026"
+  },
+  {
+    "id": "PTD-G-15",
+    "building": "PTD",
+    "floor": "G",
+    "code": "G-15",
+    "name": "Tangga B",
+    "type": "Sokongan",
+    "category": "VERT",
+    "department": "Guna sama",
+    "division": "Akademik & Sokongan",
+    "standard": "SERV",
+    "capacity": 0,
+    "occupants": 0,
+    "status": "Digunakan",
+    "manual": 36,
+    "height": 3.2,
+    "finish": "Jubin seramik",
+    "ceiling": "Siling akustik",
+    "ac": true,
+    "accessible": false,
+    "prorate": "Guna sama tingkat",
+    "survey": "2026-11-02",
+    "pic": "Pn. Sarah",
+    "notes": "Data contoh untuk semakan inventori ruang.",
+    "points": [
+      [
+        36,
+        15
+      ],
+      [
+        42,
+        15
+      ],
+      [
+        42,
+        21
+      ],
+      [
+        36,
+        21
+      ]
+    ],
+    "source": "Poligon demo",
+    "updated": "9 Nov 2026"
+  },
+  {
+    "id": "PTD-G-16",
+    "building": "PTD",
+    "floor": "G",
+    "code": "G-16",
+    "name": "Koridor Utama",
+    "type": "Sirkulasi",
+    "category": "CIRC",
+    "department": "Guna sama",
+    "division": "Akademik & Sokongan",
+    "standard": "CIRC",
+    "capacity": 0,
+    "occupants": 0,
+    "status": "Digunakan",
+    "manual": 108,
+    "height": 3.2,
+    "finish": "Jubin seramik",
+    "ceiling": "Siling akustik",
+    "ac": true,
+    "accessible": true,
+    "prorate": "Guna sama tingkat",
+    "survey": "2026-11-02",
+    "pic": "Dr. Aina",
+    "notes": "Data contoh untuk semakan inventori ruang.",
+    "points": [
+      [
+        0,
+        9
+      ],
+      [
+        36,
+        9
+      ],
+      [
+        36,
+        12
+      ],
+      [
+        0,
+        12
+      ]
+    ],
+    "source": "Poligon demo",
+    "updated": "9 Nov 2026"
+  },
+  {
+    "id": "PTD-01-01",
+    "building": "PTD",
+    "floor": "01",
+    "code": "01-01",
+    "name": "Ruang Latihan 1",
+    "type": "Bilik kuliah",
+    "category": "OCCUPIABLE",
+    "department": "Pengajian Komputer",
+    "division": "Akademik & Sokongan",
+    "standard": "KUL-40",
+    "capacity": 40,
+    "occupants": 0,
+    "status": "Digunakan",
+    "manual": 54,
+    "height": 3.2,
+    "finish": "Jubin seramik",
+    "ceiling": "Siling akustik",
+    "ac": true,
+    "accessible": true,
+    "prorate": "Jabatan",
+    "survey": "2026-11-02",
+    "pic": "Dr. Aina",
+    "notes": "Data contoh untuk semakan inventori ruang.",
+    "points": [
+      [
+        0,
+        0
+      ],
+      [
+        6,
+        0
+      ],
+      [
+        6,
+        9
+      ],
+      [
+        0,
+        9
+      ]
+    ],
+    "source": "Poligon demo",
+    "updated": "9 Nov 2026"
+  },
+  {
+    "id": "PTD-01-02",
+    "building": "PTD",
+    "floor": "01",
+    "code": "01-02",
+    "name": "Ruang Latihan 2",
+    "type": "Bilik kuliah",
+    "category": "OCCUPIABLE",
+    "department": "Pengajian Komputer",
+    "division": "Akademik & Sokongan",
+    "standard": "KUL-40",
+    "capacity": 40,
+    "occupants": 38,
+    "status": "Digunakan",
+    "manual": 54,
+    "height": 3.2,
+    "finish": "Jubin seramik",
+    "ceiling": "Siling akustik",
+    "ac": true,
+    "accessible": true,
+    "prorate": "Jabatan",
+    "survey": "2026-11-02",
+    "pic": "En. Hafiz",
+    "notes": "Data contoh untuk semakan inventori ruang.",
+    "points": [
+      [
+        6,
+        0
+      ],
+      [
+        12,
+        0
+      ],
+      [
+        12,
+        9
+      ],
+      [
+        6,
+        9
+      ]
+    ],
+    "source": "Poligon demo",
+    "updated": "9 Nov 2026"
+  },
+  {
+    "id": "PTD-01-03",
+    "building": "PTD",
+    "floor": "01",
+    "code": "01-03",
+    "name": "Makmal Komputer 1",
+    "type": "Makmal",
+    "category": "OCCUPIABLE",
+    "department": "Pengajian Komputer",
+    "division": "Akademik & Sokongan",
+    "standard": "LAB-30",
+    "capacity": 30,
+    "occupants": 26,
+    "status": "Digunakan",
+    "manual": 81,
+    "height": 3.2,
+    "finish": "Jubin seramik",
+    "ceiling": "Siling akustik",
+    "ac": true,
+    "accessible": true,
+    "prorate": "Jabatan",
+    "survey": "2026-11-02",
+    "pic": "Pn. Sarah",
+    "notes": "Data contoh untuk semakan inventori ruang.",
+    "points": [
+      [
+        12,
+        0
+      ],
+      [
+        21,
+        0
+      ],
+      [
+        21,
+        9
+      ],
+      [
+        12,
+        9
+      ]
+    ],
+    "source": "Poligon demo",
+    "updated": "9 Nov 2026"
+  },
+  {
+    "id": "PTD-01-04",
+    "building": "PTD",
+    "floor": "01",
+    "code": "01-04",
+    "name": "Bilik Mesyuarat",
+    "type": "Mesyuarat",
+    "category": "OCCUPIABLE",
+    "department": "Pentadbiran",
+    "division": "Pengurusan Universiti",
+    "standard": "MES-16",
+    "capacity": 16,
+    "occupants": 16,
+    "status": "Digunakan",
+    "manual": 54,
+    "height": 3.2,
+    "finish": "Jubin seramik",
+    "ceiling": "Siling akustik",
+    "ac": true,
+    "accessible": true,
+    "prorate": "Jabatan",
+    "survey": "2026-11-02",
+    "pic": "Dr. Aina",
+    "notes": "Data contoh untuk semakan inventori ruang.",
+    "points": [
+      [
+        21,
+        0
+      ],
+      [
+        27,
+        0
+      ],
+      [
+        27,
+        9
+      ],
+      [
+        21,
+        9
+      ]
+    ],
+    "source": "Poligon demo",
+    "updated": "9 Nov 2026"
+  },
+  {
+    "id": "PTD-01-05",
+    "building": "PTD",
+    "floor": "01",
+    "code": "01-05",
+    "name": "Makmal Reka Bentuk",
+    "type": "Makmal",
+    "category": "OCCUPIABLE",
+    "department": "Pengajian Kejuruteraan",
+    "division": "Akademik & Sokongan",
+    "standard": "LAB-24",
+    "capacity": 24,
+    "occupants": 0,
+    "status": "Digunakan",
+    "manual": 81,
+    "height": 3.2,
+    "finish": "Jubin seramik",
+    "ceiling": "Siling akustik",
+    "ac": true,
+    "accessible": true,
+    "prorate": "Jabatan",
+    "survey": "2026-11-02",
+    "pic": "En. Hafiz",
+    "notes": "Data contoh untuk semakan inventori ruang.",
+    "points": [
+      [
+        27,
+        0
+      ],
+      [
+        36,
+        0
+      ],
+      [
+        36,
+        9
+      ],
+      [
+        27,
+        9
+      ]
+    ],
+    "source": "Poligon demo",
+    "updated": "9 Nov 2026"
+  },
+  {
+    "id": "PTD-01-06",
+    "building": "PTD",
+    "floor": "01",
+    "code": "01-06",
+    "name": "Pejabat Ketua",
+    "type": "Pejabat",
+    "category": "OCCUPIABLE",
+    "department": "Pentadbiran",
+    "division": "Pengurusan Universiti",
+    "standard": "OFF-02",
+    "capacity": 2,
+    "occupants": 0,
+    "status": "Digunakan",
+    "manual": 40.5,
+    "height": 3.2,
+    "finish": "Jubin seramik",
+    "ceiling": "Siling akustik",
+    "ac": true,
+    "accessible": true,
+    "prorate": "Jabatan",
+    "survey": "2026-11-02",
+    "pic": "Pn. Sarah",
+    "notes": "Data contoh untuk semakan inventori ruang.",
+    "points": [
+      [
+        0,
+        12
+      ],
+      [
+        4.5,
+        12
+      ],
+      [
+        4.5,
+        21
+      ],
+      [
+        0,
+        21
+      ]
+    ],
+    "source": "Poligon demo",
+    "updated": "9 Nov 2026"
+  },
+  {
+    "id": "PTD-01-07",
+    "building": "PTD",
+    "floor": "01",
+    "code": "01-07",
+    "name": "Pejabat Pensyarah 1",
+    "type": "Pejabat",
+    "category": "OCCUPIABLE",
+    "department": "Pengajian Komputer",
+    "division": "Akademik & Sokongan",
+    "standard": "OFF-06",
+    "capacity": 6,
+    "occupants": 6,
+    "status": "Digunakan",
+    "manual": 40.5,
+    "height": 3.2,
+    "finish": "Jubin seramik",
+    "ceiling": "Siling akustik",
+    "ac": true,
+    "accessible": true,
+    "prorate": "Jabatan",
+    "survey": "2026-11-02",
+    "pic": "Dr. Aina",
+    "notes": "Data contoh untuk semakan inventori ruang.",
+    "points": [
+      [
+        4.5,
+        12
+      ],
+      [
+        9,
+        12
+      ],
+      [
+        9,
+        21
+      ],
+      [
+        4.5,
+        21
+      ]
+    ],
+    "source": "Poligon demo",
+    "updated": "9 Nov 2026"
+  },
+  {
+    "id": "PTD-01-08",
+    "building": "PTD",
+    "floor": "01",
+    "code": "01-08",
+    "name": "Pejabat Pensyarah 2",
+    "type": "Pejabat",
+    "category": "OCCUPIABLE",
+    "department": "Pengajian Komputer",
+    "division": "Akademik & Sokongan",
+    "standard": "OFF-06",
+    "capacity": 6,
+    "occupants": 0,
+    "status": "Tidak digunakan",
+    "manual": 40.5,
+    "height": 3.2,
+    "finish": "Jubin seramik",
+    "ceiling": "Siling akustik",
+    "ac": true,
+    "accessible": true,
+    "prorate": "Jabatan",
+    "survey": "2026-11-02",
+    "pic": "En. Hafiz",
+    "notes": "Data contoh untuk semakan inventori ruang.",
+    "points": [
+      [
+        9,
+        12
+      ],
+      [
+        13.5,
+        12
+      ],
+      [
+        13.5,
+        21
+      ],
+      [
+        9,
+        21
+      ]
+    ],
+    "source": "Poligon demo",
+    "updated": "9 Nov 2026"
+  },
+  {
+    "id": "PTD-01-09",
+    "building": "PTD",
+    "floor": "01",
+    "code": "01-09",
+    "name": "Bilik Perbincangan",
+    "type": "Mesyuarat",
+    "category": "OCCUPIABLE",
+    "department": "Guna sama",
+    "division": "Akademik & Sokongan",
+    "standard": "MES-08",
+    "capacity": 8,
+    "occupants": 0,
+    "status": "Digunakan",
+    "manual": 40.5,
+    "height": 3.2,
+    "finish": "Jubin seramik",
+    "ceiling": "Siling akustik",
+    "ac": true,
+    "accessible": true,
+    "prorate": "Jabatan",
+    "survey": "2026-11-02",
+    "pic": "Pn. Sarah",
+    "notes": "Data contoh untuk semakan inventori ruang.",
+    "points": [
+      [
+        13.5,
+        12
+      ],
+      [
+        18,
+        12
+      ],
+      [
+        18,
+        21
+      ],
+      [
+        13.5,
+        21
+      ]
+    ],
+    "source": "Poligon demo",
+    "updated": "9 Nov 2026"
+  },
+  {
+    "id": "PTD-01-10",
+    "building": "PTD",
+    "floor": "01",
+    "code": "01-10",
+    "name": "Ruang Latihan 10",
+    "type": "Bilik kuliah",
+    "category": "OCCUPIABLE",
+    "department": "Pengajian Kejuruteraan",
+    "division": "Akademik & Sokongan",
+    "standard": "KUL-60",
+    "capacity": 60,
+    "occupants": 60,
+    "status": "Digunakan",
+    "manual": 81,
+    "height": 3.2,
+    "finish": "Jubin seramik",
+    "ceiling": "Siling akustik",
+    "ac": true,
+    "accessible": true,
+    "prorate": "Jabatan",
+    "survey": "2026-11-02",
+    "pic": "Dr. Aina",
+    "notes": "Data contoh untuk semakan inventori ruang.",
+    "points": [
+      [
+        18,
+        12
+      ],
+      [
+        27,
+        12
+      ],
+      [
+        27,
+        21
+      ],
+      [
+        18,
+        21
+      ]
+    ],
+    "source": "Poligon demo",
+    "updated": "9 Nov 2026"
+  },
+  {
+    "id": "PTD-01-11",
+    "building": "PTD",
+    "floor": "01",
+    "code": "01-11",
+    "name": "Makmal Projek",
+    "type": "Makmal",
+    "category": "OCCUPIABLE",
+    "department": "Pengajian Kejuruteraan",
+    "division": "Akademik & Sokongan",
+    "standard": "LAB-20",
+    "capacity": 20,
+    "occupants": 18,
+    "status": "Digunakan",
+    "manual": 72,
+    "height": 3.2,
+    "finish": "Jubin seramik",
+    "ceiling": "Siling akustik",
+    "ac": true,
+    "accessible": true,
+    "prorate": "Jabatan",
+    "survey": "2026-11-02",
+    "pic": "En. Hafiz",
+    "notes": "Sempadan berbentuk L; keluasan dikira daripada poligon.",
+    "points": [
+      [
+        27,
+        12
+      ],
+      [
+        36,
+        12
+      ],
+      [
+        36,
+        21
+      ],
+      [
+        30,
+        21
+      ],
+      [
+        30,
+        18
+      ],
+      [
+        27,
+        18
+      ]
+    ],
+    "source": "Poligon demo",
+    "updated": "9 Nov 2026"
+  },
+  {
+    "id": "PTD-01-12",
+    "building": "PTD",
+    "floor": "01",
+    "code": "01-12",
+    "name": "Tangga A",
+    "type": "Sokongan",
+    "category": "VERT",
+    "department": "Guna sama",
+    "division": "Akademik & Sokongan",
+    "standard": "SERV",
+    "capacity": 0,
+    "occupants": 0,
+    "status": "Digunakan",
+    "manual": 36,
+    "height": 3.2,
+    "finish": "Jubin seramik",
+    "ceiling": "Siling akustik",
+    "ac": true,
+    "accessible": false,
+    "prorate": "Guna sama tingkat",
+    "survey": "2026-11-02",
+    "pic": "Pn. Sarah",
+    "notes": "Data contoh untuk semakan inventori ruang.",
+    "points": [
+      [
+        36,
+        0
+      ],
+      [
+        42,
+        0
+      ],
+      [
+        42,
+        6
+      ],
+      [
+        36,
+        6
+      ]
+    ],
+    "source": "Poligon demo",
+    "updated": "9 Nov 2026"
+  },
+  {
+    "id": "PTD-01-13",
+    "building": "PTD",
+    "floor": "01",
+    "code": "01-13",
+    "name": "Tandas Lelaki",
+    "type": "Sokongan",
+    "category": "SERV",
+    "department": "Guna sama",
+    "division": "Akademik & Sokongan",
+    "standard": "SERV",
+    "capacity": 0,
+    "occupants": 0,
+    "status": "Digunakan",
+    "manual": 27,
+    "height": 3.2,
+    "finish": "Jubin seramik",
+    "ceiling": "Siling akustik",
+    "ac": true,
+    "accessible": true,
+    "prorate": "Guna sama tingkat",
+    "survey": "2026-11-02",
+    "pic": "Dr. Aina",
+    "notes": "Data contoh untuk semakan inventori ruang.",
+    "points": [
+      [
+        36,
+        6
+      ],
+      [
+        42,
+        6
+      ],
+      [
+        42,
+        10.5
+      ],
+      [
+        36,
+        10.5
+      ]
+    ],
+    "source": "Poligon demo",
+    "updated": "9 Nov 2026"
+  },
+  {
+    "id": "PTD-01-14",
+    "building": "PTD",
+    "floor": "01",
+    "code": "01-14",
+    "name": "Tandas Wanita",
+    "type": "Sokongan",
+    "category": "SERV",
+    "department": "Guna sama",
+    "division": "Akademik & Sokongan",
+    "standard": "SERV",
+    "capacity": 0,
+    "occupants": 0,
+    "status": "Digunakan",
+    "manual": 27,
+    "height": 3.2,
+    "finish": "Jubin seramik",
+    "ceiling": "Siling akustik",
+    "ac": true,
+    "accessible": true,
+    "prorate": "Guna sama tingkat",
+    "survey": "2026-11-02",
+    "pic": "En. Hafiz",
+    "notes": "Data contoh untuk semakan inventori ruang.",
+    "points": [
+      [
+        36,
+        10.5
+      ],
+      [
+        42,
+        10.5
+      ],
+      [
+        42,
+        15
+      ],
+      [
+        36,
+        15
+      ]
+    ],
+    "source": "Poligon demo",
+    "updated": "9 Nov 2026"
+  },
+  {
+    "id": "PTD-01-15",
+    "building": "PTD",
+    "floor": "01",
+    "code": "01-15",
+    "name": "Tangga B",
+    "type": "Sokongan",
+    "category": "VERT",
+    "department": "Guna sama",
+    "division": "Akademik & Sokongan",
+    "standard": "SERV",
+    "capacity": 0,
+    "occupants": 0,
+    "status": "Digunakan",
+    "manual": 36,
+    "height": 3.2,
+    "finish": "Jubin seramik",
+    "ceiling": "Siling akustik",
+    "ac": true,
+    "accessible": false,
+    "prorate": "Guna sama tingkat",
+    "survey": "2026-11-02",
+    "pic": "Pn. Sarah",
+    "notes": "Data contoh untuk semakan inventori ruang.",
+    "points": [
+      [
+        36,
+        15
+      ],
+      [
+        42,
+        15
+      ],
+      [
+        42,
+        21
+      ],
+      [
+        36,
+        21
+      ]
+    ],
+    "source": "Poligon demo",
+    "updated": "9 Nov 2026"
+  },
+  {
+    "id": "PTD-01-16",
+    "building": "PTD",
+    "floor": "01",
+    "code": "01-16",
+    "name": "Koridor Utama",
+    "type": "Sirkulasi",
+    "category": "CIRC",
+    "department": "Guna sama",
+    "division": "Akademik & Sokongan",
+    "standard": "CIRC",
+    "capacity": 0,
+    "occupants": 0,
+    "status": "Digunakan",
+    "manual": 108,
+    "height": 3.2,
+    "finish": "Jubin seramik",
+    "ceiling": "Siling akustik",
+    "ac": true,
+    "accessible": true,
+    "prorate": "Guna sama tingkat",
+    "survey": "2026-11-02",
+    "pic": "Dr. Aina",
+    "notes": "Data contoh untuk semakan inventori ruang.",
+    "points": [
+      [
+        0,
+        9
+      ],
+      [
+        36,
+        9
+      ],
+      [
+        36,
+        12
+      ],
+      [
+        0,
+        12
+      ]
+    ],
+    "source": "Poligon demo",
+    "updated": "9 Nov 2026"
+  },
+  {
+    "id": "PTD-02-01",
+    "building": "PTD",
+    "floor": "02",
+    "code": "02-01",
+    "name": "Ruang Latihan 1",
+    "type": "Bilik kuliah",
+    "category": "OCCUPIABLE",
+    "department": "Pengajian Komputer",
+    "division": "Akademik & Sokongan",
+    "standard": "KUL-40",
+    "capacity": 40,
+    "occupants": 0,
+    "status": "Digunakan",
+    "manual": 54,
+    "height": 3.2,
+    "finish": "Jubin seramik",
+    "ceiling": "Siling akustik",
+    "ac": true,
+    "accessible": true,
+    "prorate": "Jabatan",
+    "survey": "2026-11-02",
+    "pic": "Dr. Aina",
+    "notes": "Data contoh untuk semakan inventori ruang.",
+    "points": [
+      [
+        0,
+        0
+      ],
+      [
+        6,
+        0
+      ],
+      [
+        6,
+        9
+      ],
+      [
+        0,
+        9
+      ]
+    ],
+    "source": "Poligon demo",
+    "updated": "9 Nov 2026"
+  },
+  {
+    "id": "PTD-02-02",
+    "building": "PTD",
+    "floor": "02",
+    "code": "02-02",
+    "name": "Ruang Latihan 2",
+    "type": "Bilik kuliah",
+    "category": "OCCUPIABLE",
+    "department": "Pengajian Komputer",
+    "division": "Akademik & Sokongan",
+    "standard": "KUL-40",
+    "capacity": 40,
+    "occupants": 38,
+    "status": "Digunakan",
+    "manual": 54,
+    "height": 3.2,
+    "finish": "Jubin seramik",
+    "ceiling": "Siling akustik",
+    "ac": true,
+    "accessible": true,
+    "prorate": "Jabatan",
+    "survey": "2026-11-02",
+    "pic": "En. Hafiz",
+    "notes": "Data contoh untuk semakan inventori ruang.",
+    "points": [
+      [
+        6,
+        0
+      ],
+      [
+        12,
+        0
+      ],
+      [
+        12,
+        9
+      ],
+      [
+        6,
+        9
+      ]
+    ],
+    "source": "Poligon demo",
+    "updated": "9 Nov 2026"
+  },
+  {
+    "id": "PTD-02-03",
+    "building": "PTD",
+    "floor": "02",
+    "code": "02-03",
+    "name": "Makmal Komputer 1",
+    "type": "Makmal",
+    "category": "OCCUPIABLE",
+    "department": "Pengajian Komputer",
+    "division": "Akademik & Sokongan",
+    "standard": "LAB-30",
+    "capacity": 30,
+    "occupants": 26,
+    "status": "Digunakan",
+    "manual": 81,
+    "height": 3.2,
+    "finish": "Jubin seramik",
+    "ceiling": "Siling akustik",
+    "ac": true,
+    "accessible": true,
+    "prorate": "Jabatan",
+    "survey": "2026-11-02",
+    "pic": "Pn. Sarah",
+    "notes": "Data contoh untuk semakan inventori ruang.",
+    "points": [
+      [
+        12,
+        0
+      ],
+      [
+        21,
+        0
+      ],
+      [
+        21,
+        9
+      ],
+      [
+        12,
+        9
+      ]
+    ],
+    "source": "Poligon demo",
+    "updated": "9 Nov 2026"
+  },
+  {
+    "id": "PTD-02-04",
+    "building": "PTD",
+    "floor": "02",
+    "code": "02-04",
+    "name": "Bilik Mesyuarat",
+    "type": "Mesyuarat",
+    "category": "OCCUPIABLE",
+    "department": "Pentadbiran",
+    "division": "Pengurusan Universiti",
+    "standard": "MES-16",
+    "capacity": 16,
+    "occupants": 16,
+    "status": "Digunakan",
+    "manual": 54,
+    "height": 3.2,
+    "finish": "Jubin seramik",
+    "ceiling": "Siling akustik",
+    "ac": true,
+    "accessible": true,
+    "prorate": "Jabatan",
+    "survey": "2026-11-02",
+    "pic": "Dr. Aina",
+    "notes": "Data contoh untuk semakan inventori ruang.",
+    "points": [
+      [
+        21,
+        0
+      ],
+      [
+        27,
+        0
+      ],
+      [
+        27,
+        9
+      ],
+      [
+        21,
+        9
+      ]
+    ],
+    "source": "Poligon demo",
+    "updated": "9 Nov 2026"
+  },
+  {
+    "id": "PTD-02-05",
+    "building": "PTD",
+    "floor": "02",
+    "code": "02-05",
+    "name": "Makmal Reka Bentuk",
+    "type": "Makmal",
+    "category": "OCCUPIABLE",
+    "department": "Pengajian Kejuruteraan",
+    "division": "Akademik & Sokongan",
+    "standard": "LAB-24",
+    "capacity": 24,
+    "occupants": 0,
+    "status": "Digunakan",
+    "manual": 81,
+    "height": 3.2,
+    "finish": "Jubin seramik",
+    "ceiling": "Siling akustik",
+    "ac": true,
+    "accessible": true,
+    "prorate": "Jabatan",
+    "survey": "2026-11-02",
+    "pic": "En. Hafiz",
+    "notes": "Data contoh untuk semakan inventori ruang.",
+    "points": [
+      [
+        27,
+        0
+      ],
+      [
+        36,
+        0
+      ],
+      [
+        36,
+        9
+      ],
+      [
+        27,
+        9
+      ]
+    ],
+    "source": "Poligon demo",
+    "updated": "9 Nov 2026"
+  },
+  {
+    "id": "PTD-02-06",
+    "building": "PTD",
+    "floor": "02",
+    "code": "02-06",
+    "name": "Pejabat Ketua",
+    "type": "Pejabat",
+    "category": "OCCUPIABLE",
+    "department": "Pentadbiran",
+    "division": "Pengurusan Universiti",
+    "standard": "OFF-02",
+    "capacity": 2,
+    "occupants": 0,
+    "status": "Digunakan",
+    "manual": 40.5,
+    "height": 3.2,
+    "finish": "Jubin seramik",
+    "ceiling": "Siling akustik",
+    "ac": true,
+    "accessible": true,
+    "prorate": "Jabatan",
+    "survey": "2026-11-02",
+    "pic": "Pn. Sarah",
+    "notes": "Data contoh untuk semakan inventori ruang.",
+    "points": [
+      [
+        0,
+        12
+      ],
+      [
+        4.5,
+        12
+      ],
+      [
+        4.5,
+        21
+      ],
+      [
+        0,
+        21
+      ]
+    ],
+    "source": "Poligon demo",
+    "updated": "9 Nov 2026"
+  },
+  {
+    "id": "PTD-02-07",
+    "building": "PTD",
+    "floor": "02",
+    "code": "02-07",
+    "name": "Pejabat Pensyarah 1",
+    "type": "Pejabat",
+    "category": "OCCUPIABLE",
+    "department": "Pengajian Komputer",
+    "division": "Akademik & Sokongan",
+    "standard": "OFF-06",
+    "capacity": 6,
+    "occupants": 6,
+    "status": "Digunakan",
+    "manual": 40.5,
+    "height": 3.2,
+    "finish": "Jubin seramik",
+    "ceiling": "Siling akustik",
+    "ac": true,
+    "accessible": true,
+    "prorate": "Jabatan",
+    "survey": "2026-11-02",
+    "pic": "Dr. Aina",
+    "notes": "Data contoh untuk semakan inventori ruang.",
+    "points": [
+      [
+        4.5,
+        12
+      ],
+      [
+        9,
+        12
+      ],
+      [
+        9,
+        21
+      ],
+      [
+        4.5,
+        21
+      ]
+    ],
+    "source": "Poligon demo",
+    "updated": "9 Nov 2026"
+  },
+  {
+    "id": "PTD-02-08",
+    "building": "PTD",
+    "floor": "02",
+    "code": "02-08",
+    "name": "Pejabat Pensyarah 2",
+    "type": "Pejabat",
+    "category": "OCCUPIABLE",
+    "department": "Pengajian Komputer",
+    "division": "Akademik & Sokongan",
+    "standard": "OFF-06",
+    "capacity": 6,
+    "occupants": 0,
+    "status": "Tidak digunakan",
+    "manual": 40.5,
+    "height": 3.2,
+    "finish": "Jubin seramik",
+    "ceiling": "Siling akustik",
+    "ac": true,
+    "accessible": true,
+    "prorate": "Jabatan",
+    "survey": "2026-11-02",
+    "pic": "En. Hafiz",
+    "notes": "Data contoh untuk semakan inventori ruang.",
+    "points": [
+      [
+        9,
+        12
+      ],
+      [
+        13.5,
+        12
+      ],
+      [
+        13.5,
+        21
+      ],
+      [
+        9,
+        21
+      ]
+    ],
+    "source": "Poligon demo",
+    "updated": "9 Nov 2026"
+  },
+  {
+    "id": "PTD-02-09",
+    "building": "PTD",
+    "floor": "02",
+    "code": "02-09",
+    "name": "Bilik Perbincangan",
+    "type": "Mesyuarat",
+    "category": "OCCUPIABLE",
+    "department": "Guna sama",
+    "division": "Akademik & Sokongan",
+    "standard": "MES-08",
+    "capacity": 8,
+    "occupants": 0,
+    "status": "Digunakan",
+    "manual": 40.5,
+    "height": 3.2,
+    "finish": "Jubin seramik",
+    "ceiling": "Siling akustik",
+    "ac": true,
+    "accessible": true,
+    "prorate": "Jabatan",
+    "survey": "2026-11-02",
+    "pic": "Pn. Sarah",
+    "notes": "Data contoh untuk semakan inventori ruang.",
+    "points": [
+      [
+        13.5,
+        12
+      ],
+      [
+        18,
+        12
+      ],
+      [
+        18,
+        21
+      ],
+      [
+        13.5,
+        21
+      ]
+    ],
+    "source": "Poligon demo",
+    "updated": "9 Nov 2026"
+  },
+  {
+    "id": "PTD-02-10",
+    "building": "PTD",
+    "floor": "02",
+    "code": "02-10",
+    "name": "Ruang Latihan 10",
+    "type": "Bilik kuliah",
+    "category": "OCCUPIABLE",
+    "department": "Pengajian Kejuruteraan",
+    "division": "Akademik & Sokongan",
+    "standard": "KUL-60",
+    "capacity": 60,
+    "occupants": 60,
+    "status": "Digunakan",
+    "manual": 81,
+    "height": 3.2,
+    "finish": "Jubin seramik",
+    "ceiling": "Siling akustik",
+    "ac": true,
+    "accessible": true,
+    "prorate": "Jabatan",
+    "survey": "2026-11-02",
+    "pic": "Dr. Aina",
+    "notes": "Data contoh untuk semakan inventori ruang.",
+    "points": [
+      [
+        18,
+        12
+      ],
+      [
+        27,
+        12
+      ],
+      [
+        27,
+        21
+      ],
+      [
+        18,
+        21
+      ]
+    ],
+    "source": "Poligon demo",
+    "updated": "9 Nov 2026"
+  },
+  {
+    "id": "PTD-02-11",
+    "building": "PTD",
+    "floor": "02",
+    "code": "02-11",
+    "name": "Makmal Projek",
+    "type": "Makmal",
+    "category": "OCCUPIABLE",
+    "department": "Pengajian Kejuruteraan",
+    "division": "Akademik & Sokongan",
+    "standard": "LAB-20",
+    "capacity": 20,
+    "occupants": 18,
+    "status": "Digunakan",
+    "manual": 72,
+    "height": 3.2,
+    "finish": "Jubin seramik",
+    "ceiling": "Siling akustik",
+    "ac": true,
+    "accessible": true,
+    "prorate": "Jabatan",
+    "survey": "2026-11-02",
+    "pic": "En. Hafiz",
+    "notes": "Sempadan berbentuk L; keluasan dikira daripada poligon.",
+    "points": [
+      [
+        27,
+        12
+      ],
+      [
+        36,
+        12
+      ],
+      [
+        36,
+        21
+      ],
+      [
+        30,
+        21
+      ],
+      [
+        30,
+        18
+      ],
+      [
+        27,
+        18
+      ]
+    ],
+    "source": "Poligon demo",
+    "updated": "9 Nov 2026"
+  },
+  {
+    "id": "PTD-02-12",
+    "building": "PTD",
+    "floor": "02",
+    "code": "02-12",
+    "name": "Tangga A",
+    "type": "Sokongan",
+    "category": "VERT",
+    "department": "Guna sama",
+    "division": "Akademik & Sokongan",
+    "standard": "SERV",
+    "capacity": 0,
+    "occupants": 0,
+    "status": "Digunakan",
+    "manual": 36,
+    "height": 3.2,
+    "finish": "Jubin seramik",
+    "ceiling": "Siling akustik",
+    "ac": true,
+    "accessible": false,
+    "prorate": "Guna sama tingkat",
+    "survey": "2026-11-02",
+    "pic": "Pn. Sarah",
+    "notes": "Data contoh untuk semakan inventori ruang.",
+    "points": [
+      [
+        36,
+        0
+      ],
+      [
+        42,
+        0
+      ],
+      [
+        42,
+        6
+      ],
+      [
+        36,
+        6
+      ]
+    ],
+    "source": "Poligon demo",
+    "updated": "9 Nov 2026"
+  },
+  {
+    "id": "PTD-02-13",
+    "building": "PTD",
+    "floor": "02",
+    "code": "02-13",
+    "name": "Tandas Lelaki",
+    "type": "Sokongan",
+    "category": "SERV",
+    "department": "Guna sama",
+    "division": "Akademik & Sokongan",
+    "standard": "SERV",
+    "capacity": 0,
+    "occupants": 0,
+    "status": "Digunakan",
+    "manual": 27,
+    "height": 3.2,
+    "finish": "Jubin seramik",
+    "ceiling": "Siling akustik",
+    "ac": true,
+    "accessible": true,
+    "prorate": "Guna sama tingkat",
+    "survey": "2026-11-02",
+    "pic": "Dr. Aina",
+    "notes": "Data contoh untuk semakan inventori ruang.",
+    "points": [
+      [
+        36,
+        6
+      ],
+      [
+        42,
+        6
+      ],
+      [
+        42,
+        10.5
+      ],
+      [
+        36,
+        10.5
+      ]
+    ],
+    "source": "Poligon demo",
+    "updated": "9 Nov 2026"
+  },
+  {
+    "id": "PTD-02-14",
+    "building": "PTD",
+    "floor": "02",
+    "code": "02-14",
+    "name": "Tandas Wanita",
+    "type": "Sokongan",
+    "category": "SERV",
+    "department": "Guna sama",
+    "division": "Akademik & Sokongan",
+    "standard": "SERV",
+    "capacity": 0,
+    "occupants": 0,
+    "status": "Digunakan",
+    "manual": 27,
+    "height": 3.2,
+    "finish": "Jubin seramik",
+    "ceiling": "Siling akustik",
+    "ac": true,
+    "accessible": true,
+    "prorate": "Guna sama tingkat",
+    "survey": "2026-11-02",
+    "pic": "En. Hafiz",
+    "notes": "Data contoh untuk semakan inventori ruang.",
+    "points": [
+      [
+        36,
+        10.5
+      ],
+      [
+        42,
+        10.5
+      ],
+      [
+        42,
+        15
+      ],
+      [
+        36,
+        15
+      ]
+    ],
+    "source": "Poligon demo",
+    "updated": "9 Nov 2026"
+  },
+  {
+    "id": "PTD-02-15",
+    "building": "PTD",
+    "floor": "02",
+    "code": "02-15",
+    "name": "Tangga B",
+    "type": "Sokongan",
+    "category": "VERT",
+    "department": "Guna sama",
+    "division": "Akademik & Sokongan",
+    "standard": "SERV",
+    "capacity": 0,
+    "occupants": 0,
+    "status": "Digunakan",
+    "manual": 36,
+    "height": 3.2,
+    "finish": "Jubin seramik",
+    "ceiling": "Siling akustik",
+    "ac": true,
+    "accessible": false,
+    "prorate": "Guna sama tingkat",
+    "survey": "2026-11-02",
+    "pic": "Pn. Sarah",
+    "notes": "Data contoh untuk semakan inventori ruang.",
+    "points": [
+      [
+        36,
+        15
+      ],
+      [
+        42,
+        15
+      ],
+      [
+        42,
+        21
+      ],
+      [
+        36,
+        21
+      ]
+    ],
+    "source": "Poligon demo",
+    "updated": "9 Nov 2026"
+  },
+  {
+    "id": "PTD-02-16",
+    "building": "PTD",
+    "floor": "02",
+    "code": "02-16",
+    "name": "Koridor Utama",
+    "type": "Sirkulasi",
+    "category": "CIRC",
+    "department": "Guna sama",
+    "division": "Akademik & Sokongan",
+    "standard": "CIRC",
+    "capacity": 0,
+    "occupants": 0,
+    "status": "Digunakan",
+    "manual": 108,
+    "height": 3.2,
+    "finish": "Jubin seramik",
+    "ceiling": "Siling akustik",
+    "ac": true,
+    "accessible": true,
+    "prorate": "Guna sama tingkat",
+    "survey": "2026-11-02",
+    "pic": "Dr. Aina",
+    "notes": "Data contoh untuk semakan inventori ruang.",
+    "points": [
+      [
+        0,
+        9
+      ],
+      [
+        36,
+        9
+      ],
+      [
+        36,
+        12
+      ],
+      [
+        0,
+        12
+      ]
+    ],
+    "source": "Poligon demo",
+    "updated": "9 Nov 2026"
+  }
+]
