@@ -55,6 +55,20 @@ jobs:
           npm --prefix frontend run test
           npm --prefix frontend run test:render
           npm --prefix frontend run build
+      - name: Chromium desktop and mobile browser acceptance
+        working-directory: frontend
+        run: |
+          npx playwright install --with-deps chromium
+          npm run test:browser
+      - name: Browser evidence
+        if: always()
+        uses: actions/upload-artifact@v5
+        with:
+          name: browser-evidence
+          path: |
+            frontend/playwright-report/
+            frontend/test-results/
+          retention-days: 14
       - name: Actual container backup and restore
         run: |
           scripts/backup.sh

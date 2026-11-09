@@ -11,3 +11,5 @@ backend/storage/
 frontend/tests/.render.test.mjs
 __pycache__/
 *.pyc
+frontend/test-results/
+frontend/playwright-report/
