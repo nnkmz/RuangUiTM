@@ -1,0 +1,30 @@
+{
+  "status": "passed",
+  "passed": 22,
+  "checks": [
+    "HTTPS HSTS header present",
+    "untrusted TLS certificate rejected",
+    "HTTP redirect preserves path and upgrades to HTTPS",
+    "session cookie Secure HttpOnly SameSite Strict",
+    "real private attachments available for persistence tests",
+    "existing session survives database PHP and web restart",
+    "saved room survives container restart",
+    "private attachment bytes survive container restart",
+    "existing proxies resolve replacement PHP container and retain session",
+    "scheduler service generates due work without HTTP trigger",
+    "second scheduler loop creates no duplicate work",
+    "scheduler restart creates no duplicate work",
+    "restore test changes database content and removes an upload before recovery",
+    "restore matches content hashes of every database table",
+    "restore matches all attachment files including deleted probe",
+    "authenticated session remains usable after restore",
+    "authorized private attachment download remains byte identical after restore",
+    "session survives container removal and recreation with volumes",
+    "room data survives container recreation",
+    "attachment survives container recreation",
+    "database and PHP have no published ports",
+    "published web and TLS ports bind to loopback only"
+  ],
+  "tables_verified": 27,
+  "upload_files_verified": 5
+}

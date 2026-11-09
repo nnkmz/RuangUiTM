@@ -16,6 +16,10 @@ Runtime sebenar: PHP 8.3.6/PDO MySQL + MariaDB 10.11.14. Database ujian berasing
 
 ## Tertangguh — jangan nyatakan lulus
 
-HTTPS reverse proxy, volum/scheduler selepas restart pada staging, audit aksesibiliti penuh, browser selain Chromium/peranti fizikal dan UAT institusi belum disahkan. Penetration test dan ujian beban juga belum dilakukan.
+Domain/sijil/rangkaian sebenar, operasi volum/scheduler jangka panjang pada staging, audit aksesibiliti penuh, browser selain Chromium/peranti fizikal dan UAT institusi belum disahkan. Penetration test dan ujian beban juga belum dilakukan.
 
 Lihat `RELEASE_GATE.md`. GitHub Actions run #4 (`42556336774`, commit `df64c17`) telah completed/success: Docker Compose, backend dan frontend, 21 browser tests desktop/emulasi 360/430 px, backup/restore serta health. Rujuk `BROWSER_TESTING.md` dan `GITHUB_ACTIONS_STATUS.md` untuk bukti dan had.
+
+## Deployment CI tambahan
+
+Run #7 (`42576424220`, commit `e38ec61`) completed/success: 22 semakan deployment, HTTPS dengan sijil ujian yang disahkan, cookie Secure/HttpOnly/SameSite Strict, restart dan penggantian container, scheduler dua kitaran serta restart tanpa pendua, pemulihan semua 27 jadual dan 5 fail upload selepas mutasi terkawal. Ujian backend/frontend/browser sedia ada turut lulus. Lihat `DEPLOYMENT_TESTING.md` dan `DEPLOYMENT_RESULTS.json`.

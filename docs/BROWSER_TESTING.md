@@ -29,3 +29,5 @@ Emulasi telefon Chromium bukan ujian peranti Android/iPhone fizikal. Edge, Safar
 ## Keputusan akhir
 
 [Run #4](https://github.com/nnkmz/RuangUiTM/actions/runs/42556336774), commit `df64c17d917f6863dd0f40b51caf95c07b0f6cab`: **completed / success**, 21/21 browser tests (40.8s). Semua langkah Docker, backend, frontend dan backup/restore turut lulus.
+
+Run #7 (`42576424220`, commit `e38ec61`) mengulang semua 21 browser tests dengan konfigurasi proksi Docker yang dibaiki; semuanya lulus. HTTPS, restart dan scheduler kini turut diuji secara automatik dalam CI berasingan pada langkah deployment; lihat `DEPLOYMENT_TESTING.md`. Had dev server/peranti fizikal kekal.

@@ -17,6 +17,6 @@ Ruang/geometri/import, identiti/peranan, aset/sejarah lokasi, aduan/arahan kerja
 
 ## Belum lulus gate
 
-GitHub Actions run #4 (`42556336774`, commit `df64c17`) lulus Docker Compose, 214 assertion backend, 33 ujian frontend, 21 ujian Chromium desktop/emulasi telefon dan backup/restore. Screenshot/report disimpan sebagai artifact CI. Rujuk `BROWSER_TESTING.md` untuk had liputan. HTTPS, restart/persistence dan scheduler berterusan pada staging sasaran masih belum disahkan.
+GitHub Actions run #4 (`42556336774`, commit `df64c17`) lulus Docker Compose, 214 assertion backend, 33 ujian frontend, 21 ujian Chromium desktop/emulasi telefon dan backup/restore. Screenshot/report disimpan sebagai artifact CI. Rujuk `BROWSER_TESTING.md` untuk had liputan. Run #7 (`42576424220`, commit `e38ec61`) turut lulus 22 semakan HTTPS/cookie, restart, scheduler dan recovery 27 jadual/5 upload. Proksi Docker telah dibaiki supaya menyelesaikan semula IP servis selepas container diganti. Domain/sijil/rangkaian dan operasi berterusan pada staging sasaran masih belum disahkan.
 
 Kod disimpan sebagai checkpoint, bukan muat turun akhir. Rujuk `RELEASE_GATE.md` dan `UAT.md` untuk perkara yang mesti selesai.
