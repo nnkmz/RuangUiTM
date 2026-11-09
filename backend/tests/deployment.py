@@ -12,6 +12,7 @@ hc.BASE = 'https://localhost:8443/api/v1/'
 results = []
 def mark(ok, message):
     check(ok, message); results.append(message)
+    Path('deployment-results.json').write_text(json.dumps({'status':'in_progress','passed':len(results),'checks':results},indent=2)+'\n')
 def compose(*args, input=None):
     return subprocess.check_output(['docker','compose',*args],input=input,stderr=subprocess.STDOUT)
 def wait_for(predicate, message, seconds=90):
@@ -94,7 +95,7 @@ compose('exec','-T','php','php','-r',
 files_before=upload_hashes()
 subprocess.run(['scripts/backup.sh'],check=True)
 backup=sorted(Path('backups').glob('*.sql'))[-1]
-sql("UPDATE rooms SET name='Mutated before restore' WHERE code='DEP-"+suffix+"';")
+sql("UPDATE rooms SET name='Mutated before restore' WHERE room_code='DEP-"+suffix+"';")
 compose('exec','-T','php','php','-r','unlink("storage/uploads/restore-probe");')
 mark(hashes()!=before and upload_hashes()!=files_before,'restore test changes database content and removes an upload before recovery')
 subprocess.run(['scripts/restore.sh',str(backup)],input=b'RESTORE\n',check=True)
@@ -113,5 +114,5 @@ mark(hashlib.sha256(a.opener.open(hc.BASE+attachment_path).read()).hexdigest()==
 config=json.loads(compose('config','--format','json'))
 mark(not config['services']['db'].get('ports') and not config['services']['php'].get('ports'),'database and PHP have no published ports')
 mark(all(p.get('host_ip')=='127.0.0.1' for n in ['web','tls'] for p in config['services'][n].get('ports',[])),'published web and TLS ports bind to loopback only')
-Path('deployment-results.json').write_text(json.dumps({'passed':len(results),'checks':results,'tables_verified':len(before),'upload_files_verified':len(files_before)},indent=2)+'\n')
+Path('deployment-results.json').write_text(json.dumps({'status':'passed','passed':len(results),'checks':results,'tables_verified':len(before),'upload_files_verified':len(files_before)},indent=2)+'\n')
 print(f'{len(results)} deployment checks passed.')
