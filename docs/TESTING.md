@@ -16,6 +16,6 @@ Runtime sebenar: PHP 8.3.6/PDO MySQL + MariaDB 10.11.14. Database ujian berasing
 
 ## Tertangguh — jangan nyatakan lulus
 
-Docker image/Compose, HTTPS reverse proxy, volum/scheduler selepas restart, browser desktop/mobile, aksesibiliti interaktif dan UAT institusi belum lulus. Browser automation ditolak polisi persekitaran; tiada alternatif browser digunakan untuk memintasnya. Penetration test dan ujian beban juga belum dilakukan.
+HTTPS reverse proxy, volum/scheduler selepas restart pada staging, audit aksesibiliti penuh, browser selain Chromium/peranti fizikal dan UAT institusi belum disahkan. Penetration test dan ujian beban juga belum dilakukan.
 
-Lihat `RELEASE_GATE.md`. `.github/workflows/ci.yml` ialah fail workflow untuk ujian Docker kelak; kewujudannya bukan bukti CI telah berjaya.
+Lihat `RELEASE_GATE.md`. GitHub Actions run #4 (`42556336774`, commit `df64c17`) telah completed/success: Docker Compose, backend dan frontend, 21 browser tests desktop/emulasi 360/430 px, backup/restore serta health. Rujuk `BROWSER_TESTING.md` dan `GITHUB_ACTIONS_STATUS.md` untuk bukti dan had.
