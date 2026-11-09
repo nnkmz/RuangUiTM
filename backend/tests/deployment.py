@@ -40,6 +40,7 @@ def upload_hashes():
         'find storage/uploads -type f -exec sha256sum {} +').decode().splitlines())
 
 compose('up','-d','php','web','tls')
+compose('stop','scheduler')
 wait_for(health,'TLS endpoint not healthy')
 # No -k or ignored TLS errors: the explicit test certificate is trusted and hostname checked.
 response=urllib.request.urlopen(hc.BASE+'csrf',timeout=5)
@@ -69,6 +70,8 @@ compose('restart','php','web'); wait_for(health,'Web/PHP restart did not recover
 mark(a.req('me')['user']['email']==ADMIN,'existing session survives database PHP and web restart')
 mark(any(r['id']==sentinel['id'] and r['name']==sentinel['name'] for r in a.req('bootstrap')['rooms']),'saved room survives container restart')
 mark(hashlib.sha256(a.opener.open(hc.BASE+attachment_path).read()).hexdigest()==digest,'private attachment bytes survive container restart')
+compose('up','-d','--force-recreate','php'); wait_for(health,'PHP recreation did not recover through the existing proxies')
+mark(a.req('me')['user']['email']==ADMIN,'existing proxies resolve replacement PHP container and retain session')
 # Exercise the actual scheduler service loop, including a second cycle and restart.
 asset=next(x for x in ops['assets'] if int(x['active']))
 tech=next(x for x in ops['people'] if x['role']=='technician')
@@ -86,8 +89,8 @@ compose('restart','scheduler')
 wait_for(lambda: compose('logs','--no-color','scheduler').count(b'"generated":')>cycles_before,'Scheduler restart did not complete a new cycle')
 mark(len(occurrences())==1,'scheduler restart creates no duplicate work')
 compose('stop','scheduler')
-# Snapshot every table and all attachment files, mutate a known test row and remove one
-# referenced file, then prove restore repairs content rather than just returning health.
+# Snapshot every table and all attachment files, mutate a known test row and remove an
+# upload probe, then prove restore repairs content rather than just returning health.
 before=hashes(); files_before=upload_hashes()
 compose('exec','-T','php','php','-r',
     '$p="storage/uploads/restore-probe";file_put_contents($p,"restore probe");')
