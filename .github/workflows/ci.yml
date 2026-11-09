@@ -75,9 +75,22 @@ jobs:
           latest_backup=$(find backups -name '*.sql' | sort | tail -n 1)
           printf 'RESTORE\n' | scripts/restore.sh "$latest_backup"
           curl --fail --retry 15 --retry-connrefused --retry-all-errors --retry-delay 2 --max-time 5 http://127.0.0.1:8080/api/v1/health
+      - name: TLS restart scheduler and recovery acceptance
+        run: |
+          mkdir -p docker/ci/certs
+          openssl req -x509 -newkey rsa:2048 -nodes -days 1 -keyout docker/ci/certs/key.pem -out docker/ci/certs/cert.pem -subj /CN=localhost -addext "subjectAltName=DNS:localhost,IP:127.0.0.1"
+          echo "COMPOSE_FILE=compose.yaml:docker/compose.ci-tls.yaml" >> "$GITHUB_ENV"
+          python3 backend/tests/deployment.py
+      - name: Deployment evidence
+        if: always()
+        uses: actions/upload-artifact@v5
+        with:
+          name: deployment-evidence
+          path: deployment-results.json
+          retention-days: 14
       - name: Stack logs on failure
         if: failure()
-        run: docker compose logs --no-color --tail=100
+        run: docker compose -f compose.yaml -f docker/compose.ci-tls.yaml logs --no-color --tail=100
       - name: Cleanup disposable stack
         if: always()
-        run: docker compose down -v
+        run: docker compose -f compose.yaml -f docker/compose.ci-tls.yaml down -v

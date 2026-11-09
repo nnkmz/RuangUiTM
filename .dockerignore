@@ -10,3 +10,6 @@ backups
 
 backend/storage
 frontend/tests
+docker/ci/certs
+frontend/playwright-report
+frontend/test-results

@@ -13,3 +13,5 @@ __pycache__/
 *.pyc
 frontend/test-results/
 frontend/playwright-report/
+docker/ci/certs/
+deployment-results.json
