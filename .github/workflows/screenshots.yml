@@ -1,0 +1,63 @@
+name: Screenshot setiap modul
+on:
+  push:
+    paths:
+      - '.github/workflows/screenshots.yml'
+      - 'frontend/playwright.screenshots.config.js'
+      - 'frontend/tests/capture/**'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  capture:
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    env:
+      TEST_BASE_URL: http://127.0.0.1:8080
+      TEST_ADMIN_EMAIL: ci@example.test
+      TEST_ADMIN_PASSWORD: CI-Disposable-Password-2026
+    steps:
+      - uses: actions/checkout@v7
+      - uses: actions/setup-node@v7
+        with:
+          node-version: '22'
+          cache: npm
+          cache-dependency-path: frontend/package-lock.json
+      - name: Prepare isolated screenshot stack
+        run: |
+          cat > .env <<'ENV'
+          DB_DATABASE=fasiliti
+          DB_USERNAME=fasiliti
+          DB_PASSWORD=ci-database-disposable
+          DB_ROOT_PASSWORD=ci-root-disposable
+          ADMIN_EMAIL=ci@example.test
+          ADMIN_NAME=Pentadbir Demo
+          ADMIN_PASSWORD=CI-Disposable-Password-2026
+          APP_PORT=8080
+          BIND_ADDRESS=127.0.0.1
+          COOKIE_SECURE=0
+          ENV
+          docker compose up -d --build
+          docker compose --profile tools run --rm setup --demo
+          docker compose stop scheduler
+          curl --fail --retry 15 --retry-connrefused --retry-all-errors --retry-delay 2 --max-time 5 http://127.0.0.1:8080/api/v1/health
+          python3 backend/tests/operations.py
+      - name: Capture every module
+        working-directory: frontend
+        run: |
+          npm ci
+          npx playwright install --with-deps chromium
+          npx playwright test --config=playwright.screenshots.config.js
+      - name: Save module screenshots
+        if: always()
+        uses: actions/upload-artifact@v5
+        with:
+          name: screenshot-setiap-modul
+          path: frontend/module-screenshots/
+          retention-days: 14
+      - name: Logs on failure
+        if: failure()
+        run: docker compose logs --no-color --tail=70
+      - name: Cleanup
+        if: always()
+        run: docker compose down -v

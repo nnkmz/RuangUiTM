@@ -1,6 +1,10 @@
 name: Fasiliti Suite acceptance
 on:
   push:
+    paths-ignore:
+      - ".github/workflows/screenshots.yml"
+      - "frontend/playwright.screenshots.config.js"
+      - "frontend/tests/capture/**"
   pull_request:
   workflow_dispatch:
 permissions:
